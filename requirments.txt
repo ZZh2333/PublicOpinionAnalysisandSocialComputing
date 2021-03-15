@@ -1,0 +1,8 @@
+# python=3.6
+
+# 以下库均使用conda install XXX安装
+requests=2.25.1
+beautifulsoup4=4.9.3
+
+
+#以下库均使用pip install XXX安装
