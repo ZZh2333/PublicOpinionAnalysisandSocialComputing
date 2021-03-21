@@ -9,7 +9,7 @@ homework(2).jpynb--作业二内容
 AIDict.txt--自定义词库  
 stopword.txt--休止词  
   
-+ pictures--词云背景
++ pictures--词云背景  
     china.jpg & heart.png--词云背景图  
 + output--输出图像  
     chinamask.jpg & heartmask.png & chinamaskcolor.jpg & heartmaskcolor.jpg--生成的词云  
