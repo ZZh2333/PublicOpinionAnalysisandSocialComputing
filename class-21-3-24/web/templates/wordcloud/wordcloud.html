@@ -1,0 +1,28 @@
+<head>
+    <title>中传要闻</title>
+</head>
+<body>
+    <h1>
+        中传要闻
+    </h1>
+    <tbody>
+        {% if list %}
+        {% for item in list %}
+        <tr>
+            <font size='5'>
+                <a href="{{item.newsurl}}">{{ item.id }}&nbsp{{ item.title }}</a><br>
+            </font>
+                <!-- <a href="{{item.newsurl}}">{{ item.newsurl }}</a><br> -->
+            <!-- <th>{{ item.department }}</th><br> -->
+            <th>{{ item.date }}</th><br>
+            <!-- <th>{{ item.count }}</th><br> -->
+            <th>{{ item.content }}</th><br>
+        </tr>
+        {% endfor %}
+        {% else %}
+        <tr>
+            <td>暂无所要查询数据</td>
+        </tr>
+        {% endif %}
+    </tbody>
+</body>

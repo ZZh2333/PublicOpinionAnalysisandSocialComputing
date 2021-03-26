@@ -16,3 +16,5 @@ flask-sqlalchemy=2.5.1
 wordcloud=1.8.1
 jieba=0.42.1
 Flask-Script=2.0.6
+flask-sqlacodegen=1.1.8
+SQLAlchemy=1.4.3
