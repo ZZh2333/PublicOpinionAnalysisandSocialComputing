@@ -1,11 +1,18 @@
-# 目录结构  
+# 系统运行方法  
+
+进入class-21-3-24目录：cd class-21-3-24  
+开启终端输入：python manager,py run  
+即可在[127.0.0.1:5000]访问该系统  
+[127.0.0.1:5000/wordcloud/]为本次作业内容  
+
+## 目录结构  
 
 本系统采用MVC框架  
-
-···
-
-···
-
+  
+···  
+  
+···  
+  
 ########################################  
 service firewalld stop--关闭防火墙  
 
@@ -28,3 +35,4 @@ vscode中/web/controllers/static.py报错
   
     flask-sqlacodegen 'mysql+pymysql://name:password@127.0.0.1/table' --outfile "common/models/model.py"  
     flask-sqlacodegen 'mysql+pymysql://root:123456@127.0.0.1/table' --tables user --outfile "common/models/user.py"  
+##########################################  
