@@ -8,10 +8,10 @@ class Application(Flask):
     def __init__(self,import_name,template_folder=None,root_path=None):
         super(Application,self).__init__(import_name,template_folder=template_folder,static_folder=None,root_path=root_path)
         self.config.from_pyfile('config/local_setting.py')
-
         # todo:按环境加载配置文件
-
+        
         db.__init__(self)
+
 
 
 db = SQLAlchemy()

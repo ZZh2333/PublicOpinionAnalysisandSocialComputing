@@ -5,6 +5,11 @@
     <h1>
         中传要闻
     </h1>
+    <form>
+        <input type="text" name="wanted" value="" default="中国">
+        <input type="submit",value="搜索">
+    </form>
+    <img src={{ buildStaticUrl('/outputs/news.jpg') }}><br>
     <tbody>
         {% if list %}
         {% for item in list %}
@@ -12,7 +17,7 @@
             <font size='5'>
                 <a href="{{item.newsurl}}">{{ item.id }}&nbsp{{ item.title }}</a><br>
             </font>
-                <!-- <a href="{{item.newsurl}}">{{ item.newsurl }}</a><br> -->
+            <!-- <a href="{{item.newsurl}}">{{ item.newsurl }}</a><br> -->
             <!-- <th>{{ item.department }}</th><br> -->
             <th>{{ item.date }}</th><br>
             <!-- <th>{{ item.count }}</th><br> -->
