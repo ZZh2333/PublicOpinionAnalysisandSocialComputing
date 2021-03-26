@@ -1,7 +1,8 @@
 # 系统运行方法  
 
-进入class-21-3-24目录：cd class-21-3-24  
-开启终端输入：python manager,py run  
+进入class-21-3-24目录，终端输入：cd class-21-3-24  
+终端输入：python manager,py run  
+所需库文件请查阅requirments.txt  
 即可在[127.0.0.1:5000]访问该系统  
 [127.0.0.1:5000/wordcloud/]为本次作业内容  
 
