@@ -1,3 +1,11 @@
+// {
+//     "python.pythonPath": "E:\\anaconda\\anaconda\\envs\\class_BigData\\python.exe"
+// }
 {
-    "python.pythonPath": "E:\\anaconda\\anaconda\\envs\\class_BigData\\python.exe"
+    "python.pythonPath": "/home/apr/anaconda3/envs/api_misuse/bin/python",
+    // "terminal.integrated.env.osx": {"PYTHONPATH": "${workspaceFolder}"},
+    "python.linting.pylintArgs": [
+        // "--disable=F0401"
+        "--disable=E0401"
+    ] 
 }
