@@ -1,6 +1,7 @@
 import jieba
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import time
 
 # 分词方法
 def cut(words):
@@ -17,12 +18,14 @@ def cut(words):
             tf[seg] = 1
     # 出现的词
     ci = list(tf.keys())
-    # 加载休止符
-    with open('docs/stopword.txt','r',encoding='utf-8') as ft:
-        stopword = ft.read()
+
+    # 加载停顿词（这也太卡了，所以注释了）
+    # with open('docs/stopword.txt','r',encoding='utf-8') as ft:
+    #     stopword = ft.read()
+
     # 筛选词语
     for seg in ci:
-        if tf[seg]<5 or len(seg)<2 or seg in stopword:
+        if tf[seg]<5 or len(seg)<2:
             tf.pop(seg)
     ci = list(tf.keys())
     num = list(tf.values())
@@ -40,8 +43,9 @@ def wordcloudpic(data):
         wcdata[d[1]] = d[0]
     font = r'C:\Windows\Fonts\simfang.ttf'
     wc = WordCloud(background_color='white',font_path=font).generate_from_frequencies(wcdata)
-    plt.imshow(wc)
-    plt.axis('off')
-    picname = "web/static/outputs/news.jpg"
+    # plt.imshow(wc)
+    # plt.axis('off')
+    datetime = time.strftime("%Y%m%d%H%M%S",time.localtime())
+    picname = "web/static/outputs/news"+datetime+".jpg"
     wc.to_file(picname)
-    return picname
+    return picname,datetime

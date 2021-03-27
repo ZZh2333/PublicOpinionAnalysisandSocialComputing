@@ -1,2 +1,2 @@
-DEBUG = False
-SQLALCHEMY_ECHO = False
+# DEBUG = False
+# SQLALCHEMY_ECHO = False

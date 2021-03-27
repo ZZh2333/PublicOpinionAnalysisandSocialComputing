@@ -1,4 +1,4 @@
-SQLALCHEMY_ECHO = True
+SQLALCHEMY_ECHO = False
 SQLALCHEMY_ENCODING = 'utf-8'
 
 # 连接数据库
