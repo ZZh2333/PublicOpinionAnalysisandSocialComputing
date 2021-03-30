@@ -19,9 +19,9 @@ def cut(words):
     # 出现的词
     ci = list(tf.keys())
 
-    # 加载停顿词（这也太卡了，所以注释了）
-    # with open('docs/stopword.txt','r',encoding='utf-8') as ft:
-    #     stopword = ft.read()
+    # 加载停顿词
+    with open('docs/stopword.txt','r',encoding='utf-8') as ft:
+        stopword = ft.read()
 
     # 筛选词语
     for seg in ci:
