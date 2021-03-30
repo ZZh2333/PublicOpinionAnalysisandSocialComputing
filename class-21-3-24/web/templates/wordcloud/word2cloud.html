@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中传小涵-词云</title>
+    <link rel="shortcut icon" href="{{ buildStaticUrl('/img/favicon.ico') }}">
+
+    <link rel="stylesheet" href="{{ buildStaticUrl('/materialize/css/materialize.min.css') }}"
+        media="screen,projection" />
+    <!-- Bootstrap Styles-->
+    <link href="{{ buildStaticUrl('/css/bootstrap.css') }}" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="{{ buildStaticUrl('/css/font-awesome.css') }}" rel="stylesheet" />
+    <!-- Morris Chart Styles-->
+    <link href="{{ buildStaticUrl('/js/morris/morris-0.4.3.min.css') }}" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="{{ buildStaticUrl('/css/custom-styles.css') }}" rel="stylesheet" />
+
+    <link rel="stylesheet" href="{{ buildStaticUrl('/js/Lightweight-Chart/cssCharts.css') }}">
+</head>
+
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-md-12">
+            <!-- Advanced Tables -->
+            <div class="card">
+                <div class="card-action">
+                    <h1 class="page-header">
+                        中传要闻-词云系统
+                    </h1>
+                    <form>
+                        <div class="input-field col s6">
+                            <input type="text" name="wanted" value="" default="中国">
+                            <input type="submit" ,value="搜索"><br>
+                        </div><br>
+                    </form><br>
+                    {% if href %}
+                    <br>
+                    <br>
+                    <br>
+                    <img src={{ buildStaticUrl(href) }}>
+                    {% else %}
+                    <br>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>暂无所要查询的数据</td>
+                    </tr>
+                    {% endif %}
+                </div>
+
+                <div class="card-content">
+                    {% if list %}
+                    {% for item in list %}
+                    <div class="card-content">
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header">
+                                    {{ item.id }}&nbsp{{ item.title }}
+                                </div>
+                                <div class="collapsible-body">
+                                    <p>{{ item.content }}</p>
+                                    <p>
+                                        <a href="{{item.newsurl}}">{{ item.newsurl }}</a><br>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    {% endfor %}
+                    {% else %}
+                    <tr>
+                        <td>暂无所要查询的数据</td>
+                    </tr>
+                    {% endif %}
+                </div>
+
+            </div>
+            <!--End Advanced Tables -->
+        </div>
+    </div>
+
+
+
+    <!-- js -->
+    <script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+
+    <script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
+
+    <!-- Metis Menu Js -->
+    <script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
+    <!-- Morris Chart Js -->
+    <script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
+
+
+    <script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
+
+    <script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
+
+    <!-- Custom Js -->
+    <script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+    <script>
+        $(document).ready(function () {
+            $('ul.tabs').tabs();
+            $('.collapsible').collapsible({
+                accordion: false, // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+                onOpen: function (el) {
+                    alert('Open');
+                }, // Callback for Collapsible open
+                onClose: function (el) {
+                    alert('Closed');
+                } // Callback for Collapsible close
+            });
+        });
+    </script>
+</body>

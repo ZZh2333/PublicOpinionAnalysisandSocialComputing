@@ -2,6 +2,8 @@ import jieba
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import time
+from PIL import Image
+import numpy as np
 
 # 分词方法
 def cut(words):
@@ -42,9 +44,9 @@ def wordcloudpic(data):
     for d in data:
         wcdata[d[1]] = d[0]
     font = r'C:\Windows\Fonts\simfang.ttf'
+    # mask = np.array(Image.open("web/static/img/cuc.jpg"))
+    # wc = WordCloud(background_color='white',mask=mask,font_path=font).generate_from_frequencies(wcdata)
     wc = WordCloud(background_color='white',font_path=font).generate_from_frequencies(wcdata)
-    # plt.imshow(wc)
-    # plt.axis('off')
     datetime = time.strftime("%Y%m%d%H%M%S",time.localtime())
     picname = "web/static/outputs/news"+datetime+".jpg"
     wc.to_file(picname)
