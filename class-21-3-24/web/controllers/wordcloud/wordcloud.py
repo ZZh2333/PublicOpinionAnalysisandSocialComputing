@@ -22,30 +22,7 @@ def search():
     resp_data = {}
     wanted = request.args.get("wanted",type=str)
     if wanted == None:
-        wanted = " "
-    result = Cucnew.query.filter(Cucnew.content.like("%"+wanted+"%"))
-    resp_data['list'] = result
-    words = ""
-    for r in result:
-        words += r.content
-    # # 加载自定义词库
-    # jieba.load_userdict('docs/AIDict.txt')
-    # # 加载停顿词
-    # with open('docs/stopword.txt','r',encoding='utf-8') as ft:
-    #     stopword = ft.read()
-    picname,datetime = wordcloudpic(cut(words))
-    picaddress = "/outputs/news"+datetime+".jpg"
-    resp_data['href'] = picaddress
-    app.logger.info(resp_data['href'])
-    return ops_render("/wordcloud/word2cloud.html",resp_data)
-
-
-@route_wordcloud.route('/test')
-def test():
-    resp_data = {}
-    wanted = request.args.get("wanted",type=str)
-    if wanted == None:
-        wanted = " "
+        wanted = "邹子涵"
     result = Cucnew.query.filter(Cucnew.content.like("%"+wanted+"%"))
     resp_data['list'] = result
     words = ""
@@ -55,4 +32,22 @@ def test():
         picname,datetime = wordcloudpic(cut(words))
         picaddress = "/outputs/news"+datetime+".jpg"
         resp_data['href'] = picaddress
-    return ops_render("/wordcloud/word2cloud.html",resp_data)
+    return ops_render("/wordcloud/wordcloud.html",resp_data)
+
+
+@route_wordcloud.route('/test')
+def test():
+    # resp_data = {}
+    # wanted = request.args.get("wanted",type=str)
+    # if wanted == None:
+    #     wanted = "邹子涵"
+    # result = Cucnew.query.filter(Cucnew.content.like("%"+wanted+"%"))
+    # resp_data['list'] = result
+    # words = ""
+    # for r in result:
+    #     words += r.content
+    # if words:
+    #     picname,datetime = wordcloudpic(cut(words))
+    #     picaddress = "/outputs/news"+datetime+".jpg"
+    #     resp_data['href'] = picaddress
+    return ops_render("/wordcloud/wordcloud.html")
