@@ -7,14 +7,22 @@ from common.libs.wordc.wordc import cut, wordcloudpic
 
 route_wordcloud = Blueprint('wordcloud_page',__name__)
 
-@route_wordcloud.route('/')
+@route_wordcloud.route('/',methods=["Get","POST"])
 def wordcloud():
-    # resp_data = {}
-    # wanted = "保卫处"
-    # result = Cucnew.query.filter_by(department=wanted).all()
-    # resp_data['list'] = result
-    # return ops_render("/wordcloud/wordcloud.html",resp_data)
-    return redirect('/wordcloud/search')
+    resp_data = {}
+    wanted = request.args.get("wanted",type=str)
+    if wanted:
+        result = Cucnew.query.filter(Cucnew.content.like("%"+wanted+"%"))
+        resp_data['list'] = result
+        words = ""
+        for r in result:
+            words += r.content
+        if words:
+            picname,datetime = wordcloudpic(cut(words))
+            picaddress = "/outputs/news"+datetime+".jpg"
+            resp_data['href'] = picaddress
+        return ops_render("/wordcloud/wordcloud.html",resp_data)
+    return ops_render("/wordcloud/index.html")
 
 
 @route_wordcloud.route('/search')
@@ -50,4 +58,5 @@ def test():
     #     picname,datetime = wordcloudpic(cut(words))
     #     picaddress = "/outputs/news"+datetime+".jpg"
     #     resp_data['href'] = picaddress
-    return ops_render("/wordcloud/wordcloud.html")
+    return ops_render("/common/layout_main.html")
+    # return redirect('/wordcloud/search')layout_main
