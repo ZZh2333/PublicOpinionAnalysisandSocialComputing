@@ -11,57 +11,39 @@
         <div class="card">
             <div class="card-action">
                 <h1 class="page-header">
-                    中传要闻-词云系统
+                    中传要闻-词云
                 </h1>
                 <form>
                     <div class="input-field col s6">
-                        <input type="text" name="wanted" value="" default="邹子涵">
+                        <input type="text" name="wanted" value="" default="">
                         <input type="submit" value="搜索"><br>
                     </div><br>
-                </form><br>
-                {% if href %}
-                <br>
-                <br>
-                <br>
-                <img src={{ buildStaticUrl(href) }}>
-                {% else %}
+                </form>
                 <br>
                 <br>
                 <br>
                 <br>
-                <tr>
-                    <td>输入你想要查询的词语试试吧</td>
-                </tr>
-                {% endif %}
             </div>
-
-            <!-- <div class="card-content">
-                {% if list %}
-                {% for item in list %}
-                <div class="card-content">
-                    <ul class="collapsible" data-collapsible="accordion">
-                        <li>
-                            <div class="collapsible-header">
-                                {{ item.id }}&nbsp{{ item.title }}
-                            </div>
-                            <div class="collapsible-body">
-                                <p>{{ item.content }}</p>
-                                <p>
-                                    <a href="{{item.newsurl}}">{{ item.newsurl }}</a><br>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                {% endfor %}
-                {% else %}
-                <tr>
-                    <td>暂无所要查询的数据，试试重新搜索吧！</td>
-                </tr>
-                {% endif %}
-            </div> -->
-
         </div>
+
+        <div class="card">
+            <div class="card-action">
+                <h1 class="page-header">
+                    豆瓣读书top250-词云
+                </h1>
+                <form>
+                    <div class="input-field col s6">
+                        <input type="text" name="doubanwanted" value="" default="">
+                        <input type="submit" value="搜索"><br>
+                    </div><br>
+                </form>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+
         <!--End Advanced Tables -->
     </div>
 </div>

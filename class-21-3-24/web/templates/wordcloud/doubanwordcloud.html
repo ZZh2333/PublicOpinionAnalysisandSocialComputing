@@ -11,7 +11,7 @@
         <div class="card">
             <div class="card-action">
                 <h1 class="page-header">
-                    中传要闻-词云
+                    豆瓣读书top250-词云
                 </h1>
 
 
@@ -20,9 +20,9 @@
                 词条：{{wordcount}}
                 </h2>
                 <br>
-                <form action="/wordcloud/cucnews">
+                <form action="/wordcloud/doubanciyun">
                     <div class="input-field col s6">
-                        <input type="text" name="wanted" value="" default="邹子涵">
+                        <input type="text" name="doubanwanted" value="" default="">
                         <input type="submit" ,value="搜索"><br>
                     </div><br>
                 </form><br>
@@ -38,9 +38,9 @@
                                 {{ r.id }}&nbsp{{ r.title }}
                             </div>
                             <div class="collapsible-body">
-                                <p>{{ r.content }}</p>
+                                <p>{{ r.bookintro }}</p>
                                 <p>
-                                    <a href="{{r.newsurl}}">{{ r.newsurl }}</a><br>
+                                    <a href="{{r.bookurl}}">{{ r.bookurl }}</a><br>
                                 </p>
                             </div>
                         </li>
@@ -99,7 +99,7 @@
                     .enter()
                     .append("a")
                     .attr("xlint:href",function(d){
-                                    return "/wordcloud/cucnews?wanted="+d.text;
+                                    return "/wordcloud/doubanciyun?wanted="+d.text;
                          })
                     .append("text")
                     .style("font-size", function(d) { return d.size + "px"; })

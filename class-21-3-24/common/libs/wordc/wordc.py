@@ -8,7 +8,7 @@ import numpy as np
 # 分词方法
 def cut(words):
     # 加载自定义词库
-    jieba.load_userdict('docs/AIDict.txt')
+    # jieba.load_userdict('docs/AIDict.txt')
     # 分词
     seg_list = jieba.cut(words,cut_all=False)
     # 词频统计
@@ -22,12 +22,12 @@ def cut(words):
     ci = list(tf.keys())
 
     # 加载停顿词
-    with open('docs/stopword.txt','r',encoding='utf-8') as ft:
-        stopword = ft.read()
+    # with open('docs/stopword.txt','r',encoding='utf-8') as ft:
+    #     stopword = ft.read()
 
     # 筛选词语
     for seg in ci:
-        if tf[seg]<5 or len(seg)<2:
+        if tf[seg]<10 or len(seg)<2:
             tf.pop(seg)
     ci = list(tf.keys())
     num = list(tf.values())
