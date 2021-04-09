@@ -34,7 +34,7 @@ vscode中/web/controllers/static.py报错
   
 ## flask-sqlacodegen  
   
-    flask-sqlacodegen 'mysql+pymysql://name:password@127.0.0.1/table' --outfile "common/models/model.py"  
+    flask-sqlacodegen 'mysql+pymysql://name:password@127.0.0.1/table' --outfile "common/models/model.py" --flask
     flask-sqlacodegen 'mysql+pymysql://root:123456@127.0.0.1/table' --tables user --outfile "common/models/user.py"  
     
     

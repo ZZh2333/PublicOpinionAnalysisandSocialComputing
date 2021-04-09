@@ -19,7 +19,7 @@
     <!-- Custom Styles-->
     <link href="{{ buildStaticUrl('/css/custom-styles.css') }}" rel="stylesheet" />
     <!-- Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' /> -->
     <link rel="stylesheet" href="{{ buildStaticUrl('/js/Lightweight-Chart/cssCharts.css') }}">
 
     {% block css %}
@@ -31,17 +31,18 @@
     <div id="wrapper">
         <nav class="navbar navbar-default top-navbar" role="navigation">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle waves-effect waves-dark" data-toggle="collapse"
-                    data-target=".sidebar-collapse">
+                <button type="button" class="navbar-toggle waves-effect waves-dark" data-toggle="collapse" data-target=".sidebar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand waves-effect waves-dark" href="{{buildUrl('/')}}"><i
-                        class="large material-icons">insert_chart</i> <strong>舆情分析</strong></a>
-
-                <div id="sideNav" href=""><i class="material-icons dp48">toc</i></div>
+                <a class="navbar-brand waves-effect waves-dark" href="{{buildUrl('/')}}">
+                    <i class="fa fa-bar-chart-o"></i>
+                    <strong>舆情分析</strong></a>
+                <div id="sideNav" href="">
+                    <i class="material-icons dp48">toc</i>
+                </div>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
@@ -64,8 +65,14 @@
                     </a>
                 </li> -->
 
-                <li><a href="https://github.com/ZZh2333?tab=repositories">
+                <li>
+                    <a href="https://github.com/ZZh2333?tab=repositories">
                         <i class="fa fa-user fa-fw"></i> <b>邹子涵</b>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa fa-user fa-fw"></i> <b>沈旭阳</b>
                     </a>
                 </li>
 
@@ -259,7 +266,7 @@
                     </li> -->
 
                     <li>
-                        <a href="{{buildUrl('/')}}"><i class="fa fa-dashboard"></i>
+                        <a href="{{buildUrl('/')}}" class="waves-effect waves-dark"><i class="fa fa-dashboard"></i>
                             首页</a>
                     </li>
 

@@ -5,4 +5,4 @@ SQLALCHEMY_ENCODING = 'utf-8'
 SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://zouzh:zouzihan0706@127.0.0.1:3306/class'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-DEBUG = True
+DEBUG = False

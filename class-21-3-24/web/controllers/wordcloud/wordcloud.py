@@ -1,24 +1,34 @@
 from flask import Blueprint, request, redirect, render_template
 from common.models.model import Cucnew, Douban
-from common.libs.Hepler import ops_render
+from common.libs.Hepler import ops_render, randomIntIndex
 from application import app
 from common.libs.wordc.wordc import cut, wordcloudpic
-# import jieba
 
 route_wordcloud = Blueprint('wordcloud_page',__name__)
 
 
 @route_wordcloud.route('/',methods=["Get","POST"])
 def wordcloud():
+
+    cucnewrs = []
+    newscount = Cucnew.query.filter(Cucnew.id).count()
+    newsindex = randomIntIndex(3,1,newscount)
+    for i in newsindex:
+        cucnewrs.append(Cucnew.query.filter_by(id=i).first())
+    
+    doubanrs = []
+    doubancount = Douban.query.filter(Douban.id).count()
+    doubanindex = randomIntIndex(3,1,doubancount)
+    for i in doubanindex:
+        doubanrs.append(Douban.query.filter_by(id=i).first())
+
     wanted = request.args.get("wanted",type=str)
     if wanted:
         return redirect("/wordcloud/cucnews?wanted="+wanted)
-        # return redirect("/wordcloud/cucnews")
     doubanwanted = request.args.get("doubanwanted",type=str)
     if doubanwanted:
         return redirect("/wordcloud/doubanciyun?doubanwanted="+doubanwanted)
-        # return redirect("/wordcloud/doubanciyun")
-    return ops_render("/wordcloud/index.html")
+    return render_template("/wordcloud/index.html",cucnewrs=cucnewrs,doubanrs=doubanrs)
 
 
 @route_wordcloud.route('/doubanciyun',methods=["Get","POST"])
@@ -31,10 +41,8 @@ def doubanciyun():
     words = ""
     for r in rs:
         words += r.bookintro
-    # if words:
     wordcloud = cut(words)
     wordcount = len(wordcloud)
-    # return "hello"
     return render_template("/wordcloud/doubanwordcloud.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
 
 
@@ -48,7 +56,6 @@ def cucnews():
     words = ""
     for r in rs:
         words += r.content
-    # if words:
     wordcloud = cut(words)
     wordcount = len(wordcloud)
     return render_template("/wordcloud/wordcloud.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
