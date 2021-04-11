@@ -11,9 +11,9 @@ route_wordcloud = Blueprint('wordcloud_page',__name__)
 def wordcloud():
 
     cucnewrs = []
-    newscount = Cucnew.query.filter(Cucnew.id).count()
-    newsindex = randomIntIndex(3,1,newscount)
-    for i in newsindex:
+    # newscount = Cucnew.query.filter(Cucnew.id).count()
+    # newsindex = randomIntIndex(3,1,newscount)
+    for i in range(1,4):
         cucnewrs.append(Cucnew.query.filter_by(id=i).first())
     
     doubanrs = []

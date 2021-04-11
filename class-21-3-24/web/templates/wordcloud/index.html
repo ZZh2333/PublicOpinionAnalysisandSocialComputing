@@ -18,7 +18,7 @@
                         <tr>
                             <td width='70%'>
                                 <input type="text" name="wanted" value="" default="">
-                                <label for="first_name">在新闻内容中搜索</label>
+                                <label>在新闻内容中搜索，例如“学生工作部”</label>
                             </td>
                             <td width='10%'></td>
                             <td width='20%'><input type="submit" value="搜索"></td>
@@ -31,15 +31,17 @@
             <br>
             <br>
             <br>
+            <h2>最新新闻</h2>
             <div class="card-content">
                 {% if cucnewrs %}
                 {% for r in cucnewrs %}
                 <div class="col-md-4 col-sm-4">
-                    <div class="card" style="height: 200px;background-color: blanchedalmond;">
+                    <div class="card" style="height: 230px;background-color: lightgoldenrodyellow;">
                         <div class="card-content white-text">
-                            <span class="card-title"><a href="{{r.newsurl}}" style="color: black;">{{r.title}}</a></span>
+                            <span class="card-title"><a href="{{r.newsurl}}" target="_blank">{{r.title}}</a></span>
                             <div style="position: absolute;bottom: 10px;">
                                 <p style="color: black;">{{r.department}}</p>
+                                <p style="color: black;">{{r.date}}</p>
                             </div>
                         </div>
                         <!-- <div class="card-action">
@@ -79,6 +81,7 @@
                     </div>
                 </div> -->
             </div>
+
         </div>
         <div class="clearBoth"></div>
         <br>
@@ -97,7 +100,7 @@
                         <tr>
                             <td width='70%'>
                                 <input type="text" name="doubanwanted" value="" default="">
-                                <label for="first_name">在读书简介中搜索</label>
+                                <label>在读书简介中搜索，例如“作者”</label>
                             </td>
                             <td width='10%'></td>
                             <td width='20%'><input type="submit" value="搜索"><br></td>
@@ -110,15 +113,19 @@
             <br>
             <br>
             <br>
+            <h2>好书推荐</h2>
             <div class="card-content">
                 {% if doubanrs %}
                 {% for s in doubanrs %}
                 <div class="col-md-4 col-sm-4">
-                    <div class="card" style="height: 150px;background-color: palegreen;">
+                    <div class="card" style="height: 195px;background-color: lightblue;">
                         <div class="card-content white-text">
-                            <span class="card-title"><a href="{{s.bookurl}}"  style="color: black;">《{{s.title}}》</a></span>
+                            <span class="card-title"><a href="{{s.bookurl}}" target="_blank">《{{s.title}}》</a></span>
                             <div style="position: absolute;bottom: 10px;">
-                                <p style="color: black;">{{s.comment}}</p>
+                                <p style="color: black;">评论精选：{{s.comment}}</p>
+                            </div>
+                            <div style="position: absolute;bottom: 60px;">
+                                <p style="color: black;">书籍排名：{{s.id}}</p>
                             </div>
                         </div>
                         <!-- <div class="card-action">
@@ -133,6 +140,7 @@
             </div>
         </div>
         <div class="clearBoth"></div>
+        <br>
     </div>
 
     <!--End Advanced Tables -->

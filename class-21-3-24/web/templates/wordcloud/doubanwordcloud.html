@@ -1,4 +1,3 @@
-
 {% extends "common/layout_main.html" %}
 
 {% block content %}
@@ -11,21 +10,32 @@
         <div class="card">
             <div class="card-action">
                 <h1 class="page-header">
-                    豆瓣读书top250-词云(搜索为空会显示所有内容)
+                    豆瓣读书top250-词云
                 </h1>
 
 
 
                 <h2>
-                词条：{{wordcount}}
+                    词条：{{wordcount}}
                 </h2>
                 <br>
                 <form action="/wordcloud/doubanciyun">
                     <div class="input-field col s6">
-                        <input type="text" name="doubanwanted" value="" default="">
-                        <input type="submit" ,value="搜索"><br>
+
+                        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                            <tr>
+                                <td width="70%">
+                                    <input type="text" name="doubanwanted" value="" default="">
+                                    <label>在书籍简介中搜索，例如“作者”</label>
+                                </td>
+                                <td width="10%"></td>
+                                <td width="20%"><input type="submit" ,value="搜索"><br></td>
+                            </tr>
+                        </table>
+
                     </div><br>
-                </form><br>
+                </form>
+                <br>
             </div>
 
             <div class="card-content">
@@ -40,7 +50,8 @@
                             <div class="collapsible-body">
                                 <p>{{ r.bookintro }}</p>
                                 <p>
-                                    <a href="{{r.bookurl}}">{{ r.bookurl }}</a><br>
+                                    <a href="{{r.bookurl}}" target="_blank">【书籍链接】</a>
+                                    <a href="{{r.bookurl}}" target="_blank">【情感分析】</a><br>
                                 </p>
                             </div>
                         </li>
@@ -71,12 +82,6 @@
 <script src="{{ buildStaticUrl('/js/d3.layout.cloud.js') }}"></script>
 
 <!-- <script>
-
- 
-
-</script> -->
-
-<script>
     var w=window.innerWidth|| document.documentElement.clientWidth|| document.body.clientWidth;
     var h=window.innerHeight|| document.documentElement.clientHeight|| document.body.clientHeight;
     w=w*0.75;
@@ -125,7 +130,7 @@
             })
             .text(function(d) { return d.text; });
     }
-</script>
+</script> -->
 
 
 <script>
