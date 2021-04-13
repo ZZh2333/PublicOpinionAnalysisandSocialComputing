@@ -1,11 +1,32 @@
 {% extends "common/layout_main.html" %}
 
+
+
 {% block content %}
 <h1>
-    <a>该页面还在施工中......</a>
+    该页面还在施工中
 </h1>
 {% endblock %}
 
-{% block js %}
 
+{% block js %}
+<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
 {% endblock %}

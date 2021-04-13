@@ -3,18 +3,38 @@ from common.models.model import Cucnew, Douban
 from common.libs.Hepler import ops_render, randomIntIndex
 from application import app
 from common.libs.wordc.wordc import cut, wordcloudpic
+from snownlp import SnowNLP
 
 route_wordcloud = Blueprint('wordcloud_page',__name__)
 
 
+@route_wordcloud.route('/emotionanalysis',methods=["Get","Post"])
+def emotionanalysis():
+    req = request.values
+    id = req.get('id')
+    rs = Douban.query.filter_by(id=id).first()
+    words = rs.bookintro.strip()
+    # app.logger.info(words)
+    s = SnowNLP(str(words))
+    count = s.sentiments
+    keywords = s.keywords()
+    # app.logger.info(keywords)
+    data = {'id':id,'count':count,'keywords':keywords}
+    resp = {'code':200,'msg':count,'data':{}}
+    return data
+
+
 @route_wordcloud.route('/',methods=["Get","POST"])
 def wordcloud():
-
     cucnewrs = []
-    # newscount = Cucnew.query.filter(Cucnew.id).count()
-    # newsindex = randomIntIndex(3,1,newscount)
-    for i in range(1,4):
+    newscount = Cucnew.query.filter(Cucnew.id).count()
+    newsindex = randomIntIndex(3,1,newscount)
+    app.logger.info(newsindex)
+    for i in newsindex:
         cucnewrs.append(Cucnew.query.filter_by(id=i).first())
+
+    # for i in range(1,4):
+    #     cucnewrs.append(Cucnew.query.filter_by(id=i).first())
     
     doubanrs = []
     doubancount = Douban.query.filter(Douban.id).count()
@@ -33,6 +53,7 @@ def wordcloud():
 
 @route_wordcloud.route('/doubanciyun',methods=["Get","POST"])
 def doubanciyun():
+
     doubanwanted = request.args.get("doubanwanted",type=str)
     if doubanwanted == None:
         doubanwanted = ""
@@ -61,7 +82,23 @@ def cucnews():
     return render_template("/wordcloud/wordcloud.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
 
 
-# @route_wordcloud.route('/cucnews',methods=["Get","POST"])
+
+@route_wordcloud.route('/test')
+def test():
+    # doubanwanted = request.args.get("doubanwanted",type=str)
+    # if doubanwanted == None:
+    #     doubanwanted = ""
+    # rs = list(Douban.query.filter(Douban.bookintro.like("%"+doubanwanted+"%")).all())
+    # rscount = Douban.query.filter(Douban.bookintro.like("%"+doubanwanted+"%")).count()
+    # words = ""
+    # for r in rs:
+    #     words += r.bookintro
+    # wordcloud = cut(words)
+    # wordcount = len(wordcloud)
+    # return render_template("/wordcloud/test1.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
+    return render_template("/wordcloud/test2.html")
+
+    # @route_wordcloud.route('/cucnews',methods=["Get","POST"])
 # def search():
 #     resp_data = {}
 #     wanted = request.args.get("wanted",type=str)
@@ -77,22 +114,3 @@ def cucnews():
 #         picaddress = "/outputs/news"+datetime+".jpg"
 #         resp_data['href'] = picaddress
 #     return ops_render("/wordcloud/wordcloud.html",resp_data)
-
-
-@route_wordcloud.route('/test')
-def test():
-    # resp_data = {}
-    # wanted = request.args.get("wanted",type=str)
-    # if wanted == None:
-    #     wanted = "邹子涵"
-    # result = Cucnew.query.filter(Cucnew.content.like("%"+wanted+"%"))
-    # resp_data['list'] = result
-    # words = ""
-    # for r in result:
-    #     words += r.content
-    # if words:
-    #     picname,datetime = wordcloudpic(cut(words))
-    #     picaddress = "/outputs/news"+datetime+".jpg"
-    #     resp_data['href'] = picaddress
-    return ops_render("/common/layout_main.html")
-    # return redirect('/wordcloud/search')layout_main

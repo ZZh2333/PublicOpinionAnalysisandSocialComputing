@@ -7,18 +7,18 @@
 <div class="row">
 
     <!-- Advanced Tables -->
+    <h1 class="page-header">
+        词云-中传要闻
+    </h1>
     <div class="card">
         <div class="card-action">
-            <h1 class="page-header">
-                词云-中传要闻
-            </h1>
             <form>
                 <div class="input-field col s6">
                     <table width="100%" border="0" cellspacing="1" cellpadding="0">
                         <tr>
                             <td width='70%'>
                                 <input type="text" name="wanted" value="" default="">
-                                <label>在新闻内容中搜索，例如“学生工作部”</label>
+                                <label>在新闻内容中搜索</label>
                             </td>
                             <td width='10%'></td>
                             <td width='20%'><input type="submit" value="搜索"></td>
@@ -36,71 +36,43 @@
                 {% if cucnewrs %}
                 {% for r in cucnewrs %}
                 <div class="col-md-4 col-sm-4">
-                    <div class="card" style="height: 230px;background-color: lightgoldenrodyellow;">
+                    <div class="card" style="background-color: lightgoldenrodyellow;">
                         <div class="card-content white-text">
-                            <span class="card-title"><a href="{{r.newsurl}}" target="_blank">{{r.title}}</a></span>
-                            <div style="position: absolute;bottom: 10px;">
+                            <span class="card-title"><a href="{{r.newsurl}}" target="_blank"
+                                    style="font-size: large;">{{r.title}}</a>
+                            </span>
+                            <span>
                                 <p style="color: black;">{{r.department}}</p>
                                 <p style="color: black;">{{r.date}}</p>
-                            </div>
+                            </span>
                         </div>
-                        <!-- <div class="card-action">
-                            <a href="#">This is a link</a>
-                            <a href="#">This is a link</a>
-                        </div> -->
                     </div>
                 </div>
+
                 {% endfor %}
+
                 {% else %}
                 {% endif %}
-
-                <!-- <div class="col-md-4 col-sm-4">
-                    <div class="card">
-                        <div class="card-content">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div> -->
             </div>
-
         </div>
         <div class="clearBoth"></div>
         <br>
     </div>
 
-
+    <h1 class="page-header">
+        词云-豆瓣读书top250
+    </h1>
 
     <div class="card">
         <div class="card-action">
-            <h1 class="page-header">
-                词云-豆瓣读书top250
-            </h1>
+
             <form>
                 <div class="input-field col s6">
                     <table width='100%' border="0" cellspacing="1" cellpadding="0">
                         <tr>
                             <td width='70%'>
                                 <input type="text" name="doubanwanted" value="" default="">
-                                <label>在读书简介中搜索，例如“作者”</label>
+                                <label>在读书简介中搜索</label>
                             </td>
                             <td width='10%'></td>
                             <td width='20%'><input type="submit" value="搜索"><br></td>
@@ -128,10 +100,6 @@
                                 <p style="color: black;">书籍排名：{{s.id}}</p>
                             </div>
                         </div>
-                        <!-- <div class="card-action">
-                            <a href="#">This is a link</a>
-                            <a href="#">This is a link</a>
-                        </div> -->
                     </div>
                 </div>
                 {% endfor %}
@@ -153,7 +121,28 @@
 
 {% block js %}
 
-<script>
+
+<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+
+<!-- <script>
     $(document).ready(function () {
         $('ul.tabs').tabs();
         $('.collapsible').collapsible({
@@ -166,6 +155,5 @@
             } // Callback for Collapsible close
         });
     });
-</script>
+</script> -->
 {% endblock %}
-<!-- </body> -->

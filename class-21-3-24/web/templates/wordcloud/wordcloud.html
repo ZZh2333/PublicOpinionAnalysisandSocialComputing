@@ -5,13 +5,15 @@
 
 
 <div class="row">
+
+    <h1 class="page-header">
+        中传要闻-词云
+    </h1>
     <div class="col-md-12">
         <!-- Advanced Tables -->
         <div class="card">
             <div class="card-action">
-                <h1 class="page-header">
-                    中传要闻-词云
-                </h1>
+
 
 
 
@@ -74,8 +76,43 @@
 
 {% block js %}
 
+<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+
 <script src="{{ buildStaticUrl('/js/d3.v3.min.js') }}"></script>
 <script src="{{ buildStaticUrl('/js/d3.layout.cloud.js') }}"></script>
+
+<script>
+    $(document).ready(function () {
+        $('ul.tabs').tabs();
+        $('.collapsible').collapsible({
+            accordion: false, // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+            onOpen: function (el) {
+                alert('Open');
+            }, // Callback for Collapsible open
+            onClose: function (el) {
+                alert('Closed');
+            } // Callback for Collapsible close
+        });
+    });
+</script>
 
 <script>
     var w=window.innerWidth|| document.documentElement.clientWidth|| document.body.clientWidth;
@@ -123,19 +160,6 @@
 </script>
 
 
-<script>
-    $(document).ready(function () {
-        $('ul.tabs').tabs();
-        $('.collapsible').collapsible({
-            accordion: false, // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-            onOpen: function (el) {
-                alert('Open');
-            }, // Callback for Collapsible open
-            onClose: function (el) {
-                alert('Closed');
-            } // Callback for Collapsible close
-        });
-    });
-</script>
+
 {% endblock %}
 <!-- </body> -->

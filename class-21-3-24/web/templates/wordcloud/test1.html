@@ -1,0 +1,23 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <p class="testp">这是一个段落。</p>
+    <button class="testb">切换</button>
+
+    <script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".testb").click(function () {
+                $(".testp").slideToggle();
+                console.log("helloworld")
+            });
+        });
+    </script>
+</body>
+
+</html>

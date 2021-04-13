@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中传小涵</title>
+    <link rel="shortcut icon" href="{{ buildStaticUrl('/img/favicon.ico') }}">
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{{ buildStaticUrl('/materialize/css/materialize.min.css') }}"
+        media="screen,projection" />
+    <!-- Bootstrap Styles-->
+    <link href="{{ buildStaticUrl('/css/bootstrap.css') }}" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="{{ buildStaticUrl('/css/font-awesome.css') }}" rel="stylesheet" />
+    <!-- Morris Chart Styles-->
+    <link href="{{ buildStaticUrl('/js/morris/morris-0.4.3.min.css') }}" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="{{ buildStaticUrl('/css/custom-styles.css') }}" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="{{ buildStaticUrl('/js/Lightweight-Chart/cssCharts.css') }}">
+
+    {% block css %}
+
+    {% endblock %}
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default top-navbar" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand waves-effect waves-dark" href="{{buildUrl('/')}}"><i
+                        class="fa fa-bar-chart-o"></i> <strong>舆情分析</strong></a>
+
+                <div id="sideNav" href=""><i class="material-icons dp48">toc</i></div>
+            </div>
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li><a class="dropdown-button waves-effect waves-dark"
+                        href="https://github.com/ZZh2333?tab=repositories" data-activates="dropdown1">
+                        <i class="fa fa-user fa-fw"></i> <b>邹子涵</b><b>沈旭阳</b>
+                        <!-- <i class="material-icons right">arrow_drop_down</i> -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Dropdown Structure -->
+
+        <!--/. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                    <li>
+                        <a href="{{buildUrl('/')}}" class="waves-effect waves-dark"><i class="fa fa-dashboard"></i>
+                            首页</a>
+                    </li>
+                    <li>
+                        <a href="{{buildUrl('/wordcloud/')}}" class="waves-effect waves-dark"><i
+                                class="fa fa-desktop"></i> UI
+                            词云</a>
+                    </li>
+                    <li>
+                        <a href="{{buildUrl('/crawier/')}}" class="waves-effect waves-dark"><i
+                                class="fa fa-bar-chart-o"></i>
+                            爬虫</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+
+            <div id="page-inner">
+
+                {% block content %}
+
+                {% endblock %}
+
+
+            </div>
+            <!-- /. WRAPPER  -->
+            <!-- JS Scripts-->
+            <!-- jQuery Js -->
+            <script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+
+            <!-- Bootstrap Js -->
+            <script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+
+            <script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
+
+            <!-- Metis Menu Js -->
+            <script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
+            <!-- Custom Js -->
+            <script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+
+
+            {% block js %}
+
+            {% endblock %}
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

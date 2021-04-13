@@ -1,19 +1,26 @@
 {% extends "common/layout_main.html" %}
 
+{% block css %}
+
+{% endblock %}
+
 {% block content %}
-<!-- <body> -->
+
 
 
 <div class="row">
+    <!-- <p class="testp">这是一个段落。</p>
+    <button class="testb">切换</button>
+    <button class="testb">切换</button>
+    <button class="testb">切换</button> -->
+
+
+    <h1 class="page-header">
+        豆瓣读书top250-词云
+    </h1>
     <div class="col-md-12">
-        <!-- Advanced Tables -->
         <div class="card">
             <div class="card-action">
-                <h1 class="page-header">
-                    豆瓣读书top250-词云
-                </h1>
-
-
 
                 <h2>
                     词条：{{wordcount}}
@@ -40,112 +47,137 @@
 
             <div class="card-content">
                 {% if rs %}
-                {% for r in rs %}
                 <div class="card-content">
+
                     <ul class="collapsible" data-collapsible="accordion">
+                        {% for r in rs %}
                         <li>
                             <div class="collapsible-header">
-                                {{ r.id }}&nbsp《{{ r.title }}》&nbsp&nbsp&nbsp&nbsp————{{ r.author }}
+                                <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                                    <tr>
+                                        <td>
+                                            {{ r.id }}&nbsp《{{ r.title }}》——{{ r.author }}
+                                        </td>
+                                        <td>
+                                            <p align="right"><a href="{{r.bookurl}}" target="_blank">【书籍链接】</a></p>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
                             <div class="collapsible-body">
-                                <p>{{ r.bookintro }}</p>
+                                <p>内容简介：{{ r.bookintro }}</p>
                                 <p>
-                                    <a href="{{r.bookurl}}" target="_blank">【书籍链接】</a>
-                                    <a href="{{r.bookurl}}" target="_blank">【情感分析】</a><br>
+                                    <button class="button do-analysis" id="submit" type="button"
+                                        value="{{r.id}}">【情感分析】</button>
                                 </p>
                             </div>
                         </li>
+                        {% endfor %}
+
                     </ul>
+
                 </div>
-                {% endfor %}
                 {% else %}
                 <tr>
                     <td>暂无所要查询的数据，试试重新搜索吧！</td>
                 </tr>
                 {% endif %}
             </div>
-
-
-
         </div>
-        <!--End Advanced Tables -->
     </div>
 </div>
-
-
 {% endblock %}
 
 
 {% block js %}
 
-<script src="{{ buildStaticUrl('/js/d3.v3.min.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/d3.layout.cloud.js') }}"></script>
 
-<!-- <script>
-    var w=window.innerWidth|| document.documentElement.clientWidth|| document.body.clientWidth;
-    var h=window.innerHeight|| document.documentElement.clientHeight|| document.body.clientHeight;
-    w=w*0.75;
-    h=h*0.80;
-    var fill = d3.scale.category20();
-    var words=new Array({{wordcount}});
 
-    //这里写{}
 
-    {% for wc in wordcloud %}
-        words[{{loop.index-1}}]={text:"{{wc[1]}}",size:"{{wc[0]/3}}"};
-    {% endfor %}
-    
-
-    var wc=d3.layout.cloud()
-        .size([w, 300])
-        .words(words)
-        .padding(5)
-        .rotate(function() { return ~~(Math.random() * 2) * 90; })
-        .font("Impact")
-        .fontSize(function(d) { return d.size; })
-        .on("end", draw)
-        .start();
-    
-    function draw(words) {
-        d3.select("div.card-action").append("svg")
-            .attr("width", w)
-            .attr("height", 300)
-            .append("g")
-            .attr("transform", "translate("+w/2+",150)")
-            .selectAll("text")
-            .data(words)
-            .enter()
-            .append("a")
-            .attr("xlint:href",function(d)
-            {
-                return "/wordcloud/doubanciyun?wanted="+d.text;
-            })
-            .append("text")
-            .style("font-size", function(d) { return d.size + "px"; })
-            .style("font-family", "Impact")
-            .style("fill", function(d, i) { return fill(i); })
-            .attr("text-anchor", "middle")
-            .attr("transform", function(d) {
-                return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-            })
-            .text(function(d) { return d.text; });
-    }
-</script> -->
-
+<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
 
 <script>
     $(document).ready(function () {
-        $('ul.tabs').tabs();
-        $('.collapsible').collapsible({
-            accordion: false, // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-            onOpen: function (el) {
-                alert('Open');
-            }, // Callback for Collapsible open
-            onClose: function (el) {
-                alert('Closed');
-            } // Callback for Collapsible close
+        
+        $(".do-analysis").click(function () {
+            var id = $(this).val();
+            $.ajax({
+                url: '/wordcloud/emotionanalysis',
+                type: "POST",
+                data: {
+                    'id': id
+                },
+                datatype: 'json',
+                success: function (res) {
+                    alert("情感分为：" + res.count + "\n关键字为：" + res.keywords)
+                }
+            })
         });
     });
 </script>
+
+<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/d3.v3.min.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/d3.layout.cloud.js') }}"></script>
+<script>
+    var w=window.innerWidth|| document.documentElement.clientWidth|| document.body.clientWidth;
+    var h=window.innerHeight|| document.documentElement.clientHeight|| document.body.clientHeight;
+             w=w*0.75;
+             h=h*0.80;
+             var fill = d3.scale.category20();
+             var words=new Array({{wordcount}});
+             {% for wc in wordcloud %}
+                words[{{loop.index-1}}]={text:"{{wc[1]}}",size:"{{wc[0]/3}}"};
+             {% endfor %}
+             var wc=d3.layout.cloud()
+                      .size([w, 300])
+                      .words(words)
+                      .padding(5)
+                      .rotate(function() { return ~~(Math.random() * 2) * 90; })
+                      .font("Impact")
+                      .fontSize(function(d) { return d.size; })
+                      .on("end", draw)
+                      .start();
+    
+              function draw(words) {
+                d3.select("div.card-action").append("svg")
+                    .attr("width", w)
+                    .attr("height", 300)
+                    .append("g")
+                    .attr("transform", "translate("+w/2+",150)")
+                    .selectAll("text")
+                    .data(words)
+                    .enter()
+                    .append("a")
+                    .attr("xlint:href",function(d){
+                                    return "/wordcloud/cucnews?wanted="+d.text;
+                         })
+                    .append("text")
+                    .style("font-size", function(d) { return d.size + "px"; })
+                    .style("font-family", "Impact")
+                    .style("fill", function(d, i) { return fill(i); })
+                    .attr("text-anchor", "middle")
+                    .attr("transform", function(d) {
+                      return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                    })
+                    .text(function(d) { return d.text; });
+              }
+</script>
+
 {% endblock %}
-<!-- </body> -->
