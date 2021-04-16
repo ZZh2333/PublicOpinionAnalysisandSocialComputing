@@ -13,10 +13,6 @@
         <!-- Advanced Tables -->
         <div class="card">
             <div class="card-action">
-
-
-
-
                 <h2>
                     词条：{{wordcount}}
                 </h2>
@@ -41,23 +37,34 @@
 
             <div class="card-content">
                 {% if rs %}
-                {% for r in rs %}
                 <div class="card-content">
                     <ul class="collapsible" data-collapsible="accordion">
+                        {% for r in rs %}
                         <li>
                             <div class="collapsible-header">
-                                {{ r.id }}&nbsp{{ r.title }}
+                                <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                                    <tr>
+                                        <td>
+                                            {{ r.id }}&nbsp{{ r.title }}
+                                        </td>
+                                        <td>
+                                            <p align="right"> <a href="{{r.newsurl}}" target="_blank">【新闻链接】</a><br></p>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
                             <div class="collapsible-body">
                                 <p>{{ r.content }}</p>
                                 <p>
-                                    <a href="{{r.newsurl}}" target="_blank">【新闻链接】</a><br>
+
+                                    <button class="button do-analysis" id="submit" type="button"
+                                        value="{{r.id}}">【情感分析】</button>
                                 </p>
                             </div>
                         </li>
+                        {% endfor %}
                     </ul>
                 </div>
-                {% endfor %}
                 {% else %}
                 <tr>
                     <td>暂无所要查询的数据，试试重新搜索吧！</td>
@@ -79,6 +86,26 @@
 <script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
 
 
+<script>
+    $(document).ready(function () {
+        
+        $(".do-analysis").click(function () {
+            var id = $(this).val();
+            $.ajax({
+                url: '/wordcloud/cucnewsemotionanalysis',
+                type: "POST",
+                data: {
+                    'id': id
+                },
+                datatype: 'json',
+                success: function (res) {
+                    alert("情感分为：" + res.count + "\n关键字为：" + res.keywords)
+                }
+            })
+        });
+    });
+</script>
+
 <script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
 
 <script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
@@ -99,7 +126,7 @@
 <script src="{{ buildStaticUrl('/js/d3.v3.min.js') }}"></script>
 <script src="{{ buildStaticUrl('/js/d3.layout.cloud.js') }}"></script>
 
-<script>
+<!-- <script>
     $(document).ready(function () {
         $('ul.tabs').tabs();
         $('.collapsible').collapsible({
@@ -112,7 +139,7 @@
             } // Callback for Collapsible close
         });
     });
-</script>
+</script> -->
 
 <script>
     var w=window.innerWidth|| document.documentElement.clientWidth|| document.body.clientWidth;

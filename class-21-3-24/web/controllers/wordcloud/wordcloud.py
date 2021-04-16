@@ -8,6 +8,19 @@ from snownlp import SnowNLP
 route_wordcloud = Blueprint('wordcloud_page',__name__)
 
 
+@route_wordcloud.route('/cucnewsemotionanalysis',methods=["Get","Post"])
+def cucnewsemotionanalysis():
+    req = request.values
+    id = req.get('id')
+    rs = Cucnew.query.filter_by(id=id).first()
+    words = rs.content.strip()
+    s = SnowNLP(str(words))
+    count = s.sentiments
+    keywords = s.keywords()
+    data = {'id':id,'count':count,'keywords':keywords}
+    resp = {'code':200,'msg':count,'data':{}}
+    return data
+
 @route_wordcloud.route('/emotionanalysis',methods=["Get","Post"])
 def emotionanalysis():
     req = request.values
@@ -27,14 +40,13 @@ def emotionanalysis():
 @route_wordcloud.route('/',methods=["Get","POST"])
 def wordcloud():
     cucnewrs = []
-    newscount = Cucnew.query.filter(Cucnew.id).count()
-    newsindex = randomIntIndex(3,1,newscount)
-    app.logger.info(newsindex)
-    for i in newsindex:
-        cucnewrs.append(Cucnew.query.filter_by(id=i).first())
-
-    # for i in range(1,4):
+    # newscount = Cucnew.query.filter(Cucnew.id).count()
+    # newsindex = randomIntIndex(3,1,newscount)
+    # for i in newsindex:
     #     cucnewrs.append(Cucnew.query.filter_by(id=i).first())
+
+    for i in range(1,4):
+        cucnewrs.append(Cucnew.query.filter_by(id=i).first())
     
     doubanrs = []
     doubancount = Douban.query.filter(Douban.id).count()
