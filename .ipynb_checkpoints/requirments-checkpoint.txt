@@ -19,3 +19,6 @@ flask-script==2.0.6
 flask-sqlacodegen==1.1.8
 uwsgi==2.0.19
 snownlp==0.12.3
+lxml==4.6.3
+tqdm==4.46.1
+absl-py==0.9.0

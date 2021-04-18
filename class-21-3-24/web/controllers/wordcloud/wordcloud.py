@@ -44,7 +44,6 @@ def wordcloud():
     # newsindex = randomIntIndex(3,1,newscount)
     # for i in newsindex:
     #     cucnewrs.append(Cucnew.query.filter_by(id=i).first())
-
     for i in range(1,4):
         cucnewrs.append(Cucnew.query.filter_by(id=i).first())
     
@@ -92,6 +91,7 @@ def cucnews():
     wordcloud = cut(words)
     wordcount = len(wordcloud)
     return render_template("/wordcloud/wordcloud.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
+    # return render_template("/wordcloud/wordcloud.html")
 
 
 
@@ -108,9 +108,9 @@ def test():
     # wordcloud = cut(words)
     # wordcount = len(wordcloud)
     # return render_template("/wordcloud/test1.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
-    return render_template("/wordcloud/test2.html")
+    return render_template("/wordcloud/test.html")
 
-    # @route_wordcloud.route('/cucnews',methods=["Get","POST"])
+# @route_wordcloud.route('/cucnews',methods=["Get","POST"])
 # def search():
 #     resp_data = {}
 #     wanted = request.args.get("wanted",type=str)

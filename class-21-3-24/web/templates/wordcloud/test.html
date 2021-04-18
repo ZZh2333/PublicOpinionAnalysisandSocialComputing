@@ -1,102 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <meta charset="utf-8">
+    <title>舆情分析与社会计算</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="{{ buildStaticUrl('/img/favicon.ico') }}">
+
+    <!-- css -->
+    <link href="{{ buildStaticUrl('/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ buildStaticUrl('/css/fancybox/jquery.fancybox.css') }}" rel="stylesheet">
+    <!-- <link href="{{ buildStaticUrl('/css/jcarousel.css') }}" rel="stylesheet" /> -->
+    <link href="{{ buildStaticUrl('/css/flexslider.css') }}" rel="stylesheet" />
+    <!-- <link href="{{ buildStaticUrl('/js/owl-carousel/owl.carousel.css') }}" rel="stylesheet"> -->
+    <link href="{{ buildStaticUrl('/css/style.css') }}" rel="stylesheet" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js') }}"></script>
+    <![endif]-->
+    {% block css %}
+    {% endblock %}
+
 </head>
 
 <body>
-    <div id="app">
-        <h1>中传要闻</h1>
-        词条：{{wordcount}}<br>
-        <form action="/sentiment">
-            <input type="text" name="wanted" value="" default="中国">
-            <input type="submit" value="搜索">
-        </form>
-        {% for r in rs %}
-        <font size="6" color="blue">
-
-            <el-button type="text" @click="click({{r.id}})">{{r.id}}&nbsp{{r.title}}</el-button>
-
-
-        </font><br>
-        {{r.bookintro}}<br>
-        {% endfor %}
+    <div id="wrapper" class="home-page">
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="pull-left hidden-xs">中国传媒大学</p>
+                        <p class="pull-right">
+                            <i class="fa fa-envelope-o"></i>Email：13164108610@163.com&nbsp&nbsp&nbsp;
+                            <a href="https://github.com/ZZh2333?tab=repositories">
+                                <i class="fa fa-user" style="color: white;"></i> <b
+                                    style="color: white;">邹子涵&nbsp沈旭阳</b>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- start header -->
+        <header>
+            <div class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <!-- <img src="{{ buildStaticUrl('/img/logo.jpeg') }}" style="height: 200%;" alt="logo" /> -->
+                        </a>
+                    </div>
+                    <div class="navbar-collapse collapse ">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="{{buildUrl('/')}}">首页</a></li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">词云 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="about.html">词云-中传要闻</a></li>
+                                    <li><a href="#">词云-豆瓣读书top250</a></li>
+                                    <!-- <li><a href="#">News</a></li> -->
+                                    <!-- <li><a href="#">Investors</a></li> -->
+                                </ul>
+                            </li>
+                            <li><a href="services.html">爬虫</a></li>
+                            <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+                            <!-- <li><a href="pricing.html">Pricing</a></li> -->
+                            <!-- <li><a href="contact.html">Contact</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+       
+        {% block content %}
+        {% endblock %}
 
     </div>
-
-    <script src="{{ buildStaticUrl('/js/vue/vue.js') }}"></script>
-    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
-    <script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
-    <script>
-        var vm = new Vue({
-            el: '#app',
-            data() {
-                return {
-                    requestData: "",
-                    count: "",
-                    detail: ""
-                }
-            },
-            methods: {
-                click(data) {
-                    this.requestData = data
-                    
-                    this.open()
-                },
-                open() {
-                    console.log(this.count)
-                    this.$alert(this.count, '情感得分是：', {
-                        dangerouslyUseHTMLString: true
-                    });
-                    this.post()
-                },
-                post() {
-                    var data = {
-                        'id': this.requestData
-                    }
-                    $.ajax({
-                        type: 'POST',
-                        url: '/wordcloud/emotionanalysis',
-                        data: data,
-                        dataType: 'json',
-                        success: function (res) {
-                            this.count = res.count;
-                            // alert(res.msg)
-                            // console.log(res.msg)
-                            open(res.msg)
-                        },
-                    });
-                }
-            }
-        });
-    </script>
+    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+    <!-- javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ buildStaticUrl('/js/jquery.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/jquery.fancybox.pack.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/jquery.fancybox-media.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/jquery.flexslider.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/animate.js') }}"></script>
+    <!-- Vendor Scripts -->
+    <script src="{{ buildStaticUrl('/js/modernizr.custom.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/jquery.isotope.min.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/animate.js') }}"></script>
+    <script src="{{ buildStaticUrl('/js/custom.js') }}"></script>
+    <!-- <script src="{{ buildStaticUrl('/js/owl-carousel/owl.carousel.js') }}"></script> -->
+    {% block script %}
+    {% endblock %}
 </body>
 
-
-
-{% block js %}
-<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
-
-
-<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
-
-<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
-
-<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
-
-
-<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
-
-<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
-
-
-<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
-{% endblock %}
 </html>

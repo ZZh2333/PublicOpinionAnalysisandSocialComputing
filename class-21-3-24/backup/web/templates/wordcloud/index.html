@@ -1,0 +1,159 @@
+{% extends "common/layout_main.html" %}
+
+{% block content %}
+<!-- <body> -->
+
+
+<div class="row">
+
+    <!-- Advanced Tables -->
+    <h1 class="page-header">
+        词云-中传要闻
+    </h1>
+    <div class="card">
+        <div class="card-action">
+            <form>
+                <div class="input-field col s6">
+                    <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                        <tr>
+                            <td width='70%'>
+                                <input type="text" name="wanted" value="" default="">
+                                <label>在新闻内容中搜索</label>
+                            </td>
+                            <td width='10%'></td>
+                            <td width='20%'><input type="submit" value="搜索"></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>最新新闻</h2>
+            <div class="card-content">
+                {% if cucnewrs %}
+                {% for r in cucnewrs %}
+                <div class="col-md-4 col-sm-4">
+                    <div class="card" style="background-color: lightgoldenrodyellow;">
+                        <div class="card-content white-text">
+                            <span class="card-title"><a href="{{r.newsurl}}" target="_blank"
+                                    style="font-size: large;">{{r.title}}</a>
+                            </span>
+                            <span>
+                                <p style="color: black;">{{r.department}}</p>
+                                <p style="color: black;">{{r.date}}</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                {% endfor %}
+
+                {% else %}
+                {% endif %}
+            </div>
+        </div>
+        <div class="clearBoth"></div>
+        <br>
+    </div>
+
+    <h1 class="page-header">
+        词云-豆瓣读书top250
+    </h1>
+
+    <div class="card">
+        <div class="card-action">
+
+            <form>
+                <div class="input-field col s6">
+                    <table width='100%' border="0" cellspacing="1" cellpadding="0">
+                        <tr>
+                            <td width='70%'>
+                                <input type="text" name="doubanwanted" value="" default="">
+                                <label>在读书简介中搜索</label>
+                            </td>
+                            <td width='10%'></td>
+                            <td width='20%'><input type="submit" value="搜索"><br></td>
+                        </tr>
+
+                    </table>
+                </div>
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>好书推荐</h2>
+            <div class="card-content">
+                {% if doubanrs %}
+                {% for s in doubanrs %}
+                <div class="col-md-4 col-sm-4">
+                    <div class="card" style="height: 195px;background-color: lightblue;">
+                        <div class="card-content white-text">
+                            <span class="card-title"><a href="{{s.bookurl}}" target="_blank">《{{s.title}}》</a></span>
+                            <div style="position: absolute;bottom: 10px;">
+                                <p style="color: black;">评论精选：{{s.comment}}</p>
+                            </div>
+                            <div style="position: absolute;bottom: 60px;">
+                                <p style="color: black;">书籍排名：{{s.id}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% else %}
+                {% endif %}
+            </div>
+        </div>
+        <div class="clearBoth"></div>
+        <br>
+    </div>
+
+    <!--End Advanced Tables -->
+</div>
+</div>
+
+
+{% endblock %}
+
+
+{% block js %}
+
+
+<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+
+<!-- <script>
+    $(document).ready(function () {
+        $('ul.tabs').tabs();
+        $('.collapsible').collapsible({
+            accordion: false, // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+            onOpen: function (el) {
+                alert('Open');
+            }, // Callback for Collapsible open
+            onClose: function (el) {
+                alert('Closed');
+            } // Callback for Collapsible close
+        });
+    });
+</script> -->
+{% endblock %}

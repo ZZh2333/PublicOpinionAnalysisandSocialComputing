@@ -1,0 +1,38 @@
+
+{% extends "common/layout_main.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-action">
+                <a href="https://github.com/ZZh2333?tab=repositories" target="_blank">
+                    中传小涵-舆情分析与社会计算的GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+{% endblock %}

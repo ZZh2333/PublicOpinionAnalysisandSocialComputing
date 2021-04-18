@@ -1,32 +1,31 @@
-{% extends "common/layout_main.html" %}
-
+{% extends "common/layout_crawier.html" %}
 
 
 {% block content %}
-<h1>
-    该页面还在施工中
-</h1>
-{% endblock %}
+<section id="banner">
+    <!-- Slider -->
+    <div id="main-slider" class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="{{ buildStaticUrl('/img/slides/cucdoor.jpg') }}" alt="" />
+                <div class="flex-caption">
+                    <h3>中国传媒大学</h3>
+                    <p>Communication University of China</p>
 
-
-{% block js %}
-<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
-
-
-<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
-
-<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
-
-<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
-
-
-<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
-
-<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
-
-
-<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+                </div>
+            </li>
+            <li>
+                <img src="{{ buildStaticUrl('/img/slides/cucpoor.jpg') }}" alt="" />
+                <div class="flex-caption">
+                    <h3>舆情分析与社会计算</h3>
+                    <p>Public Opinion Analysis and Social Computing</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- end slider -->
+</section>
+<section>
+    <h1>该页面还在施工中。。。</h1>
+</section>
 {% endblock %}

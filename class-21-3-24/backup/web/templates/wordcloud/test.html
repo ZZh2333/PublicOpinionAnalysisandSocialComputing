@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>中传要闻</h1>
+        词条：{{wordcount}}<br>
+        <form action="/sentiment">
+            <input type="text" name="wanted" value="" default="中国">
+            <input type="submit" value="搜索">
+        </form>
+        {% for r in rs %}
+        <font size="6" color="blue">
+
+            <el-button type="text" @click="click({{r.id}})">{{r.id}}&nbsp{{r.title}}</el-button>
+
+
+        </font><br>
+        {{r.bookintro}}<br>
+        {% endfor %}
+
+    </div>
+
+    <script src="{{ buildStaticUrl('/js/vue/vue.js') }}"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data() {
+                return {
+                    requestData: "",
+                    count: "",
+                    detail: ""
+                }
+            },
+            methods: {
+                click(data) {
+                    this.requestData = data
+                    
+                    this.open()
+                },
+                open() {
+                    console.log(this.count)
+                    this.$alert(this.count, '情感得分是：', {
+                        dangerouslyUseHTMLString: true
+                    });
+                    this.post()
+                },
+                post() {
+                    var data = {
+                        'id': this.requestData
+                    }
+                    $.ajax({
+                        type: 'POST',
+                        url: '/wordcloud/emotionanalysis',
+                        data: data,
+                        dataType: 'json',
+                        success: function (res) {
+                            this.count = res.count;
+                            // alert(res.msg)
+                            // console.log(res.msg)
+                            open(res.msg)
+                        },
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+
+
+
+{% block js %}
+<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
+<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
+
+<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
+
+
+<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+{% endblock %}
+</html>

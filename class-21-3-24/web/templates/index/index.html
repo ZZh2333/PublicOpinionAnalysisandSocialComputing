@@ -1,38 +1,55 @@
-
 {% extends "common/layout_main.html" %}
 
 {% block content %}
-<div class="row">
-    <div class="col-md-12">
-        <div class="card">
-            <div class="card-action">
-                <a href="https://github.com/ZZh2333?tab=repositories" target="_blank">
-                    中传小涵-舆情分析与社会计算的GitHub
-                </a>
+<section id="banner">
+    <!-- Slider -->
+    <div id="main-slider" class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="{{ buildStaticUrl('/img/slides/cucdoor.jpg') }}" alt="" />
+                <div class="flex-caption">
+                    <h3>中国传媒大学</h3>
+                    <p>Communication University of China</p>
+
+                </div>
+            </li>
+            <li>
+                <img src="{{ buildStaticUrl('/img/slides/cucpoor.jpg') }}" alt="" />
+                <div class="flex-caption">
+                    <h3>舆情分析与社会计算</h3>
+                    <p>Public Opinion Analysis and Social Computing</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- end slider -->
+
+</section>
+<section id="call-to-action-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-9">
+                <h3>词云系统</h3>
+                <p>“词云”，由美国西北大学新闻学副教授、新媒体专业主任里奇·戈登（Rich Gordon）于2006年最先使用。“词云”就是通过形成“关键词云层”或“关键词渲染”，对网络文本中出现频率较高的“关键词”的视觉上的突出。</p>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                <a href="{{ buildUrl('wordcloud/') }}" class="btn btn-primary">进入</a>
             </div>
         </div>
     </div>
-</div>
-{% endblock %}
+</section>
 
-{% block js %}
-<script src="{{ buildStaticUrl('/js/jquery-1.10.2.js') }}"></script>
-
-
-<script src="{{ buildStaticUrl('/js/bootstrap.min.js') }}"></script>
-
-<script src="{{ buildStaticUrl('/materialize/js/materialize.min.js') }}"></script>
-
-<script src="{{ buildStaticUrl('/js/jquery.metisMenu.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/morris/raphael-2.1.0.min.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/morris/morris.js') }}"></script>
-
-
-<script src="{{ buildStaticUrl('/js/easypiechart.js') }}"></script>
-<script src="{{ buildStaticUrl('/js/easypiechart-data.js') }}"></script>
-
-<script src="{{ buildStaticUrl('/js/Lightweight-Chart/jquery.chart.js') }}"></script>
-
-
-<script src="{{ buildStaticUrl('/js/custom-scripts.js') }}"></script>
+<section id="call-to-action-2" style="background-color: white;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-3">
+                <a href="{{ buildUrl('crawier/') }}" class="btn btn-primary">进入</a>
+            </div>
+            <div class="col-md-10 col-sm-9">
+                <h3>爬虫系统</h3>
+                <p>网络爬虫（又称为网页蜘蛛，网络机器人，在FOAF社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的程序或者脚本。另外一些不常使用的名字还有蚂蚁、自动索引、模拟程序或者蠕虫。</p>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}
