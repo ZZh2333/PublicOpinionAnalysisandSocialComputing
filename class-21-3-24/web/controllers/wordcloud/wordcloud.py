@@ -88,7 +88,8 @@ def cucnews():
     words = ""
     for r in rs:
         words += r.content
-    wordcloud = cut(words)
+    # wordcloud = cut(words)
+    wordcloud = ""
     wordcount = len(wordcloud)
     return render_template("/wordcloud/wordcloud.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
     # return render_template("/wordcloud/wordcloud.html")
