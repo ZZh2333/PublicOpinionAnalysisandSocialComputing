@@ -1,7 +1,6 @@
 # diy
 .vscode/
 .ipynb_checkpoints/
-crawier/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
