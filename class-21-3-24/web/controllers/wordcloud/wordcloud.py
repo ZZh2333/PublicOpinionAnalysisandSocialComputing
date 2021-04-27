@@ -1,5 +1,5 @@
 from flask import Blueprint, request, redirect, render_template
-from common.models.model import Cucnew, Douban
+from common.models.model import Cucnew, Douban, Moviekill, Moviesunrise
 from common.libs.Hepler import ops_render, randomIntIndex
 from application import app
 from common.libs.wordc.wordc import cut, wordcloudpic
@@ -60,6 +60,37 @@ def wordcloud():
     if doubanwanted:
         return redirect("/wordcloud/doubanciyun?doubanwanted="+doubanwanted)
     return render_template("/wordcloud/index.html",cucnewrs=cucnewrs,doubanrs=doubanrs)
+
+
+@route_wordcloud.route('/moviesunrise',methods=["Get","POST"])
+def moviesunrise():
+    moviesunrisewanted = request.args.get("moviesunrisewanted",type=str)
+    if moviesunrisewanted == None:
+        moviesunrisewanted = ""
+    rs = list(Moviesunrise.query.filter(Moviesunrise.content.like("%"+moviesunrisewanted+"%")).all())
+    rscount = Moviesunrise.query.filter(Moviesunrise.content.like("%"+moviesunrisewanted+"%")).count()
+    words = ""
+    for r in rs:
+        words += r.content
+    wordcloud = cut(words)
+    wordcount = len(wordcloud)
+    return render_template("/wordcloud/moviesunrisewordcloud.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
+
+
+@route_wordcloud.route('/moviekill',methods=["Get","POST"])
+def moviekill():
+    moviekillwanted = request.args.get("moviekillwanted",type=str)
+    if moviekillwanted == None:
+        moviekillwanted = ""
+    rs = list(Moviekill.query.filter(Moviekill.content.like("%"+moviekillwanted+"%")).all())
+    rscount = Moviekill.query.filter(Moviekill.content.like("%"+moviekillwanted+"%")).count()
+    words = ""
+    for r in rs:
+        words += r.content
+    wordcloud = cut(words)
+    wordcount = len(wordcloud)
+    return render_template("/wordcloud/moviekillwordcloud.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
+
 
 
 @route_wordcloud.route('/doubanciyun',methods=["Get","POST"])
