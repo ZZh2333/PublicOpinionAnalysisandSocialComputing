@@ -21,6 +21,7 @@ def cucnewsemotionanalysis():
     resp = {'code':200,'msg':count,'data':{}}
     return data
 
+
 @route_wordcloud.route('/emotionanalysis',methods=["Get","Post"])
 def emotionanalysis():
     req = request.values
