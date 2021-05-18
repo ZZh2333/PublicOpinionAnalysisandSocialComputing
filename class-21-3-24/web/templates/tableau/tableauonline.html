@@ -1,0 +1,32 @@
+{% extends "common/layout_main.html" %}
+
+{% block content %}
+<script type='text/javascript' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/viz_v1.js'></script>
+<div class='tableauPlaceholder' style='width: 1000px; height: 827px;'><object class='tableauViz' width='1000'
+        height='827' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fprod-apnortheast-a.online.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='&#47;t&#47;tableauzzh' />
+        <param name='name' value='test&#47;1' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='showAppBanner' value='false' />
+    </object>
+</div>
+
+<!-- <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+<script type="text/javascript">
+    function initViz() {
+        var containerDiv = document.getElementById("vizContainer"),
+            url = "http://public.tableau.com/views/RegionalSampleWorkbook/Storms",
+            options = {
+                hideTabs: true,
+                onFirstInteractive: function () {
+                    console.log("Run this code when the viz has finished loading.");
+                }
+            };
+
+        var viz = new tableau.Viz(containerDiv, url, options);
+    }
+</script> -->
+{% endblock %}
