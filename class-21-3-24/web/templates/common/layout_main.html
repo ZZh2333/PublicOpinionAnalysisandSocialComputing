@@ -67,8 +67,8 @@
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="{{buildUrl('/')}}">首页</a></li>
                             <li class="dropdown">
-                                <a data-toggle="dropdown" class="dropdown-toggle">词云 <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
+                                <a data-toggle="dropdown" class="dropdown-toggle" style="cursor: pointer;">词云 <b class="caret"></b></a>
+                                <ul class="dropdown-menu" style="opacity: 0.7;">
                                     <li><a href="{{buildUrl('/wordcloud/cucnews')}}">词云-中传要闻</a></li>
                                     <li><a href="{{buildUrl('/wordcloud/doubanciyun')}}">词云-豆瓣读书top250</a></li>
                                     <li><a href="{{buildUrl('/wordcloud/moviekill')}}">词云-电影《刺杀小说家》</a></li>
@@ -78,6 +78,17 @@
                                 </ul>
                             </li>
                             <li><a href="{{buildUrl('/crawier')}}">爬虫</a></li>
+                            <!-- <li><a href="{{buildUrl('/socialnetwork')}}">社交网络</a></li> -->
+                            <li class="dropdown">
+                              <a data-toggle="dropdown" class="dropdown-toggle" style="cursor: pointer;">社交网络 <b class="caret"></b></a>
+                              <ul class="dropdown-menu" style="opacity: 0.7;">
+                                  <li><a href="{{buildUrl('/socialnetwork/renmin')}}">d3力导向图-《人民的名义》</a></li>
+                                  <li><a href="{{buildUrl('/socialnetwork/github')}}">d3力导向图-GitHub</a></li>
+                                  <li><a href="{{buildUrl('/socialnetwork/example')}}">d3力导向图-示例</a></li>
+                                  <!-- <li><a href="#">News</a></li> -->
+                                  <!-- <li><a href="#">Investors</a></li> -->
+                              </ul>
+                          </li>
                             <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
                             <!-- <li><a href="pricing.html">Pricing</a></li> -->
                             <!-- <li><a href="contact.html">Contact</a></li> -->
