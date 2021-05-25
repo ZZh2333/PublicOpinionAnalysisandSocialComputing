@@ -20,7 +20,7 @@ def cucnewsemotionanalysis():
     data = {'id':id,'count':count,'keywords':keywords}
     resp = {'code':200,'msg':count,'data':{}}
     return data
-
+ 
 
 @route_wordcloud.route('/emotionanalysis',methods=["Get","Post"])
 def emotionanalysis():

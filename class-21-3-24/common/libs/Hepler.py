@@ -1,6 +1,7 @@
 import datetime
 from flask import g, render_template
 from numpy import random
+import requests
 
 
 # # 获取当前时间
@@ -33,3 +34,13 @@ def randomIntIndex(index,begin,end):
         a = random.randint(begin,end)
         result.append(a)
     return result
+
+
+
+
+def get_ticket(username):
+    tbserver = "http://172.17.33.144:8001"
+    url = f"{tbserver}/trusted"
+    data = {"username": username}
+    res = requests.post(url=url, data=data)
+    return(res.text)

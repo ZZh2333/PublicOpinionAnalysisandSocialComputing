@@ -3,6 +3,11 @@ from flask import Blueprint, render_template
 route_socialnetwork = Blueprint('socialnetwork_page',__name__)
 
 
+@route_socialnetwork.route('/facebook')
+def facebook():
+    return render_template('/socialnetwork/facebook.html')
+
+
 @route_socialnetwork.route('/renmin')
 def renmin():
     return render_template('/socialnetwork/renmin.html')
@@ -20,4 +25,4 @@ def example():
 
 @route_socialnetwork.route('/test')
 def test():
-    return render_template('/socialnetwork/test.html')
+    return render_template('/socialnetwork/testjson.html')

@@ -1,0 +1,236 @@
+{% extends "common/layout_socialnetwork.html" %}
+
+{% block css %}
+<style>
+    .link {
+        stroke: #777;
+        stroke-opacity: 0.3;
+        stroke-width: 1.5px;
+    }
+
+    .node circle {
+        fill: #ccc;
+        stroke: #000;
+        stroke-width: 1.5px;
+    }
+
+    .node text {
+        display: none;
+        font: 10px sans-serif;
+    }
+
+    .node:hover circle {
+        fill: #000;
+    }
+
+    .node:hover text {
+        display: inline;
+    }
+
+    .cell {
+        fill: none;
+        pointer-events: all;
+    }
+</style>
+{% endblock %}
+
+
+{% block content %}
+<section id="inner-headline">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="pageTitle"><a href="http://networkrepository.com/fb-pages-food.php"
+                        target="_blank">facebook餐饮企业社交网络</a></h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d3" id="call-to-action-2" style="background-color: white;">
+
+</section>
+<section class="section-padding gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="panel panel-red margin-bottom-40 bg-stats-table">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="icon-bar-chart icon-large"></i> 数据统计
+                        </h3>
+                    </div>
+                    <table class="table table-hover" summary="Network data statistics" id="sortTableExample">
+                        <tbody>
+                            <tr class="success">
+                                <td><b>节点数</b></td>
+                                <td>620</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>边</b></td>
+                                <td>2102</td>
+                            </tr>
+                            <!-- <tr class="success">
+                                <td><b>密度</b></td>
+                                <td>0.0108969</td>
+                            </tr> -->
+                            <tr class="success">
+                                <td><b>最大深度</b></td>
+                                <td>132</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>最小深度</b></td>
+                                <td>1</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>平均深度</b></td>
+                                <td>6</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="http://en.wikipedia.org/wiki/Assortativity" target="_blank">分类性</a></b>
+                                </td>
+                                <td>-0.0322034</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>三角形个数</b></td>
+                                <td>8.8K</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>平均三角形个数</b></td>
+                                <td>14</td>
+                            </tr>
+                            <!-- <tr class="success">
+                        <td><b>最大三角形个数</b></td>
+                        <td>461</td>
+                    </tr> -->
+                            <tr class="success">
+                                <td><b>平均聚类系数</b></td>
+                                <td>0.330897</td>
+                            </tr>
+                            <!-- <tr class="success">
+                        <td><b>封闭三角形分数</b></td>
+                        <td>0.222641</td>
+                    </tr> -->
+                            <!-- <tr class="success">
+                        <td><b>最大k核</b></td>
+                        <td>12</td>
+                    </tr> -->
+                            <!-- <tr class="success">
+                        <td><b>最大集团下线</b></td>
+                        <td>10</td>
+                    </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img src="{{buildStaticUrl('/img/socialnetwork/testfbtxt.jpg')}}" alt="">
+            </div>
+            <div class="col-md-5">
+                <img src="{{buildStaticUrl('/img/socialnetwork/testfbtxtreverse.jpg')}}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
+{% block js %}
+<script src="{{ buildStaticUrl('/js/d3.v3.min.js') }}" charset="utf-8"></script>
+<script>
+    var width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) * 0.98;
+    var height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight) * 1.5;
+
+
+    var svg = d3.select("section.d3").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var force = d3.layout.force()
+        .gravity(0.1)
+        .charge(-120)
+        .linkDistance(30)
+        .size([width, height]);
+
+    var voronoi = d3.geom.voronoi()
+        .x(function (d) {
+            return d.x;
+        })
+        .y(function (d) {
+            return d.y;
+        })
+        .clipExtent([
+            [0, 0],
+            [width, height]
+        ]);
+
+    d3.json("{{buildStaticUrl('/json/testfbtxt.json')}}", function (error, json) {
+        if (error) throw error;
+
+        force
+            .nodes(json.nodes)
+            .links(json.links)
+            .start();
+
+        var link = svg.selectAll(".link")
+            .data(json.links)
+            .enter().append("line")
+            .attr("class", "link");
+
+        var node = svg.selectAll(".node")
+            .data(json.nodes)
+            .enter().append("g")
+            .attr("class", "node")
+            .call(force.drag);
+
+        var circle = node.append("circle")
+            .attr("r", 4.5);
+
+        var label = node.append("text")
+            .attr("dy", ".35em")
+            .text(function (d) {
+                return d.name;
+            });
+
+        var cell = node.append("path")
+            .attr("class", "cell");
+
+        force.on("tick", function () {
+            cell
+                .data(voronoi(json.nodes))
+                .attr("d", function (d) {
+                    return d.length ? "M" + d.join("L") : null;
+                });
+
+            link
+                .attr("x1", function (d) {
+                    return d.source.x;
+                })
+                .attr("y1", function (d) {
+                    return d.source.y;
+                })
+                .attr("x2", function (d) {
+                    return d.target.x;
+                })
+                .attr("y2", function (d) {
+                    return d.target.y;
+                });
+
+            circle
+                .attr("cx", function (d) {
+                    return d.x;
+                })
+                .attr("cy", function (d) {
+                    return d.y;
+                });
+
+            label
+                .attr("x", function (d) {
+                    return d.x + 8;
+                })
+                .attr("y", function (d) {
+                    return d.y;
+                });
+        });
+    });
+</script>
+
+{% endblock %}

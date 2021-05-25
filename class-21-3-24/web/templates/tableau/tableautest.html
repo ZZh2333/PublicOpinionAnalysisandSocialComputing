@@ -1,0 +1,47 @@
+{% extends "common/layout_main.html" %}
+
+{% block content %}
+
+<body onload="initViz();">
+    <div id="vizContainer" style="width:800px; height:700px;"></div>
+</body>
+
+
+<script type="text/javascript" src="http://172.17.33.144:8001/javascripts/api/tableau-2.8.0.min.js"></script>
+
+<script type="text/javascript">
+    function initViz() {
+        var containerDiv = document.getElementById("vizContainer"),
+            url = "http://172.17.33.144:8001/trusted/{{ticket}}/views/test/1",
+            
+            
+            options = {
+                hideTabs: true,
+                onFirstInteractive: function () {
+                    console.log("Run this code when the viz has finished loading.");
+                }
+            };
+
+        var viz = new tableau.Viz(containerDiv, url, options);
+        // Create a viz object and embed it in the container div.
+    }
+</script>
+
+<!-- <script type="text/javascript">
+    function initViz() {
+        var containerDiv = document.getElementById("vizContainer"),
+            url = "http://172.17.33.144:8001/views/test/1",
+            
+            
+            options = {
+                hideTabs: true,
+                onFirstInteractive: function () {
+                    console.log("Run this code when the viz has finished loading.");
+                }
+            };
+
+        var viz = new tableau.Viz(containerDiv, url, options);
+        // Create a viz object and embed it in the container div.
+    }
+</script> -->
+{% endblock %}
