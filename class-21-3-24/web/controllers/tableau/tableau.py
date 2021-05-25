@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template
-import tableauserverclient as TSC
+# import tableauserverclient as TSC
 from application import app
 import requests
 from common.libs.Hepler import get_ticket
