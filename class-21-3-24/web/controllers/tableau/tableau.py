@@ -12,6 +12,13 @@ def tableauonline():
     return render_template('/tableau/tableauonline.html')
 
 
+@route_tableau.route('/tableauUI')
+def tableauUI():
+    ticket = get_ticket("admin")
+    app.logger.info(ticket)
+    return render_template('/tableau/tableauUI.html', ticket=ticket)
+
+
 @route_tableau.route("/tableauserver")
 def tableauserver():
     ticket = get_ticket("admin")
