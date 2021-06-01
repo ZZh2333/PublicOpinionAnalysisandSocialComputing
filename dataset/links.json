@@ -1,0 +1,8410 @@
+[
+    {
+        "source": "Lee Anne Wong",
+        "target": "KFC"
+    },
+    {
+        "source": "Lee Anne Wong",
+        "target": "Chef Jamie Gwen"
+    },
+    {
+        "source": "Lee Anne Wong",
+        "target": "Madison Cowan"
+    },
+    {
+        "source": "Lee Anne Wong",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Lee Anne Wong",
+        "target": "KFC"
+    },
+    {
+        "source": "Lee Anne Wong",
+        "target": "KFC"
+    },
+    {
+        "source": "Pat Neely",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Pat Neely",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Ben Sargent & Dr. Klaw",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Ben Sargent & Dr. Klaw",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Ben Sargent & Dr. Klaw",
+        "target": "Chuck Hughes"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Pasqualino Barbasso"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Alessandro Borghese"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Chef Hirohiko Shoda"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Christian Bau"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Andy Luotto"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Cristian D'Elia"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Cuoco Filippo La Mantia"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Mirko Ronzoni"
+    },
+    {
+        "source": "Chef Carlo Cracco",
+        "target": "Jock Zonfrillo"
+    },
+    {
+        "source": "Chef Maeve Rochford",
+        "target": "Wolfgang Puck"
+    },
+    {
+        "source": "Chef Maeve Rochford",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Chef Maeve Rochford",
+        "target": "Scott Conant"
+    },
+    {
+        "source": "Chef Maeve Rochford",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Chef Maeve Rochford",
+        "target": "Steve Konopelski"
+    },
+    {
+        "source": "George Pagonis",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "George Pagonis",
+        "target": "Magnum"
+    },
+    {
+        "source": "George Pagonis",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "George Pagonis",
+        "target": "Magnum"
+    },
+    {
+        "source": "Magnum",
+        "target": "Magnum"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Roy Yamaguchi",
+        "target": "Chef Sheldon Simeon"
+    },
+    {
+        "source": "Roy Yamaguchi",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Roy Yamaguchi",
+        "target": "Outback Steakhouse"
+    },
+    {
+        "source": "Roy Yamaguchi",
+        "target": "Carrabba's Italian Grill"
+    },
+    {
+        "source": "Roy Yamaguchi",
+        "target": "Chef Robert Irvine"
+    },
+    {
+        "source": "Roy Yamaguchi",
+        "target": "Roy's Restaurant"
+    },
+    {
+        "source": "Roy Yamaguchi",
+        "target": "Bonefish Grill"
+    },
+    {
+        "source": "Chili's Grill & Bar",
+        "target": "On The Border"
+    },
+    {
+        "source": "Chili's Grill & Bar",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Chili's Grill & Bar",
+        "target": "Chili's M\u00e9xico"
+    },
+    {
+        "source": "Chili's Grill & Bar",
+        "target": "foodpanda"
+    },
+    {
+        "source": "Chili's Grill & Bar",
+        "target": "Chili's Qatar"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Blue Ribbon Fried Chicken"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Chef Richard Sandoval"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Dining with Flynn"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Scott Conant"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Christina Tosi"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Alex Guarnaschelli"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Jose Garces"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Daniel Humm"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Dean Fearing"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "David Chang"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Jos\u00e9 Andr\u00e9s",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Big Fernand",
+        "target": "foodpanda"
+    },
+    {
+        "source": "Big Fernand",
+        "target": "Christophe Michalak"
+    },
+    {
+        "source": "Taco Bell Panam\u00e1",
+        "target": "Taco Bell Costa Rica"
+    },
+    {
+        "source": "Taco Bell Panam\u00e1",
+        "target": "Taco Bell Cyprus"
+    },
+    {
+        "source": "Taco Bell Panam\u00e1",
+        "target": "Taco Bell"
+    },
+    {
+        "source": "Taco Bell Panam\u00e1",
+        "target": "Taco Bell Rep Dom"
+    },
+    {
+        "source": "Taco Bell Panam\u00e1",
+        "target": "Taco Bell Guatemala"
+    },
+    {
+        "source": "Taco Bell Panam\u00e1",
+        "target": "Taco Bell El Salvador"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Subway"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Coffee"
+    },
+    {
+        "source": "Eckart Witzigmann",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Boston Market",
+        "target": "Taco Bell"
+    },
+    {
+        "source": "Boston Market",
+        "target": "Dairy Queen"
+    },
+    {
+        "source": "Christina Tosi",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Christina Tosi",
+        "target": "Chef Daniel Boulud"
+    },
+    {
+        "source": "Christina Tosi",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Christina Tosi",
+        "target": "David Chang"
+    },
+    {
+        "source": "Christina Tosi",
+        "target": "Zac Kara"
+    },
+    {
+        "source": "Christina Tosi",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Christina Tosi",
+        "target": "Roy Choi"
+    },
+    {
+        "source": "Christina Tosi",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Christina Tosi",
+        "target": "Alex Guarnaschelli"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "KFC"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Ernst Knam",
+        "target": "Mirko Ronzoni"
+    },
+    {
+        "source": "Ernst Knam",
+        "target": "Pasqualino Barbasso"
+    },
+    {
+        "source": "Ernst Knam",
+        "target": "Christian Bau"
+    },
+    {
+        "source": "Ernst Knam",
+        "target": "Cristian D'Elia"
+    },
+    {
+        "source": "Ernst Knam",
+        "target": "Cuoco Filippo La Mantia"
+    },
+    {
+        "source": "NishaMadhulika",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Paul Hollywood",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Paul Hollywood",
+        "target": "Chetna Makan"
+    },
+    {
+        "source": "Paul Hollywood",
+        "target": "Kevin Dundon"
+    },
+    {
+        "source": "Paul Hollywood",
+        "target": "Donal Skehan"
+    },
+    {
+        "source": "Paul Hollywood",
+        "target": "James Martin"
+    },
+    {
+        "source": "Maria Loi",
+        "target": "Cesare Casella"
+    },
+    {
+        "source": "Maria Loi",
+        "target": "Michael White"
+    },
+    {
+        "source": "Maria Loi",
+        "target": "Dina Nikolaou"
+    },
+    {
+        "source": "Maria Loi",
+        "target": "Seamus Mullen"
+    },
+    {
+        "source": "Maria Loi",
+        "target": "Alfred Portale"
+    },
+    {
+        "source": "Maria Loi",
+        "target": "Franklin Becker"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Delverde",
+        "target": "Delverde"
+    },
+    {
+        "source": "Delverde",
+        "target": "Delverde"
+    },
+    {
+        "source": "Delverde",
+        "target": "Juliana Lopez May"
+    },
+    {
+        "source": "Delverde",
+        "target": "Delverde"
+    },
+    {
+        "source": "Delverde",
+        "target": "Delverde"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Chef Jamie Gwen"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Hugh Acheson"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Marc Forgione"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Chef Rick Tramonto"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Chef Michelle Bernstein"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Wolfgang Puck"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "Chef Casey Thompson"
+    },
+    {
+        "source": "Dean Fearing",
+        "target": "David Chang"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "KFC",
+        "target": "Jean-Fran\u00e7ois Pi\u00e8ge     -      Page Officielle"
+    },
+    {
+        "source": "foodpanda",
+        "target": "Nando's"
+    },
+    {
+        "source": "McDonald's Vietnam",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Bahama Breeze Island Grille",
+        "target": "Yard House"
+    },
+    {
+        "source": "Nando's PERi-PERi",
+        "target": "Nando's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "Shane Delia"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "McDonald's",
+        "target": "Gary Mehigan"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Japan"
+    },
+    {
+        "source": "McDonald's",
+        "target": "Matt Moran"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "Magnum"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "Chef Pete Evans"
+    },
+    {
+        "source": "McDonald's",
+        "target": "Raymond Blanc"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "Massimo Mele"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Sanjeev Kapoor",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Sanjeev Kapoor",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Sanjeev Kapoor",
+        "target": "Saransh Goila"
+    },
+    {
+        "source": "Sanjeev Kapoor",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Sanjeev Kapoor",
+        "target": "Colin Fassnidge"
+    },
+    {
+        "source": "Sanjeev Kapoor",
+        "target": "Kevin Dundon"
+    },
+    {
+        "source": "Sanjeev Kapoor",
+        "target": "Leslie Gilliams"
+    },
+    {
+        "source": "Sanjeev Kapoor",
+        "target": "Kunal Kapur"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Deutschland Karriere"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "YANNICK ALLENO OFFICIEL"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Chef Daniel Boulud"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Guillaume Gomez"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Bruno M\u00e9nard"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Thierry Rautureau"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Chef Guy Martin"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Christian Le Squer"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Anne-Sophie Pic"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Bradley Ogden"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Christophe Bacquie"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Jean-Fran\u00e7ois Pi\u00e8ge     -      Page Officielle"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Vegan Black Metal Chef"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Valentin Neraudeau"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Paul Bocuse",
+        "target": "Geoffrey Zakarian"
+    },
+    {
+        "source": "Guillaume Gomez",
+        "target": "Bruno M\u00e9nard"
+    },
+    {
+        "source": "Guillaume Gomez",
+        "target": "Christophe Bacquie"
+    },
+    {
+        "source": "Guillaume Gomez",
+        "target": "Christian Le Squer"
+    },
+    {
+        "source": "Guillaume Gomez",
+        "target": "Anne-Sophie Pic"
+    },
+    {
+        "source": "Chef Shirley Chung",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Chef Shirley Chung",
+        "target": "Melissa King"
+    },
+    {
+        "source": "Chef Shirley Chung",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "Chef Shirley Chung",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Shirley Chung",
+        "target": "Chef Nina Compton"
+    },
+    {
+        "source": "Chef Shirley Chung",
+        "target": "Chef Sue Zemanick"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Bradley Ogden"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Chef Michael Ferraro"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Dining with Flynn"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Dean Sheremet"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Geoffrey Zakarian"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Scott Conant"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Alex Guarnaschelli"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Chef Jamie Gwen"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Chef Aaron McCargo Jr"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Vegan Black Metal Chef"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Subway"
+    },
+    {
+        "source": "Chef Robert Irvine",
+        "target": "Chef Brian Duffy"
+    },
+    {
+        "source": "Ravintola Salve",
+        "target": "RED Sushi and Hibachi Grill"
+    },
+    {
+        "source": "Russell Jackson",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Chef Grace Ramirez",
+        "target": "Chef Pete Evans"
+    },
+    {
+        "source": "Chef Hirohiko Shoda",
+        "target": "Iginio Massari"
+    },
+    {
+        "source": "Chef Hirohiko Shoda",
+        "target": "Niko Romito"
+    },
+    {
+        "source": "Chef Hirohiko Shoda",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Chef Hirohiko Shoda",
+        "target": "Bruno Barbieri"
+    },
+    {
+        "source": "Chef Hirohiko Shoda",
+        "target": "Andy Luotto"
+    },
+    {
+        "source": "Chef Hirohiko Shoda",
+        "target": "Antonino Cannavacciuolo"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Al Brown New Zealand Chef"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Manu Feildel"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Massimo Mele"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Audra Morrice"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Eddie Jackson - FIT CHEF EDDIE"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Simon Gault"
+    },
+    {
+        "source": "Matt Moran",
+        "target": "Karen Martini"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "Amy Thielen"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "Monti Carlo"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "D'O - Davide Oldani"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "Chef Mary Sue Milliken"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "Gregory Gourdet"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Roy Choi",
+        "target": "David Chang"
+    },
+    {
+        "source": "Kirti Bhoutika",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Cadillac Bar Houston",
+        "target": "Aquarium Restaurant - Nashville"
+    },
+    {
+        "source": "Cadillac Bar Houston",
+        "target": "Bubba Gump Shrimp Co."
+    },
+    {
+        "source": "Cadillac Bar Houston",
+        "target": "Cadillac Bar Kemah"
+    },
+    {
+        "source": "Cadillac Bar Houston",
+        "target": "T-rex Cafe"
+    },
+    {
+        "source": "Per Se",
+        "target": "Princi"
+    },
+    {
+        "source": "Per Se",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Per Se",
+        "target": "ad hoc & addendum"
+    },
+    {
+        "source": "Per Se",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Per Se",
+        "target": "The French Laundry"
+    },
+    {
+        "source": "Per Se",
+        "target": "Katie Pix"
+    },
+    {
+        "source": "Per Se",
+        "target": "David Chang"
+    },
+    {
+        "source": "Hard Rock Cafe Ibiza",
+        "target": "Steak 'n Shake"
+    },
+    {
+        "source": "Hard Rock Cafe Ibiza",
+        "target": "Destino Ibiza"
+    },
+    {
+        "source": "Hard Rock Cafe Ibiza",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Yard House",
+        "target": "Chef Sheldon Simeon"
+    },
+    {
+        "source": "Yard House",
+        "target": "Seasons 52"
+    },
+    {
+        "source": "Yard House",
+        "target": "Olive Garden"
+    },
+    {
+        "source": "Yard House",
+        "target": "Eddie V's Prime Seafood"
+    },
+    {
+        "source": "Yard House",
+        "target": "Dick's Drive In Restaurant"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Chef Sam Talbot"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Chef Daniel Boulud"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Ochikeron"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Chick-fil-A"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Dining with Flynn"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Saransh Goila"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "\u05de\u05e9\u05d4 \u05e9\u05d2\u05d1 / Moshe Segev"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "The French Laundry"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "David Chang"
+    },
+    {
+        "source": "Chef Billy Parisi",
+        "target": "Jimmy John's"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Chef Cynthia Louise",
+        "target": "Matthew Kenney"
+    },
+    {
+        "source": "Chef Casey Thompson",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Casey Thompson",
+        "target": "Chef Charlie Palmer"
+    },
+    {
+        "source": "Chef Casey Thompson",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Chef Casey Thompson",
+        "target": "Bradley Ogden"
+    },
+    {
+        "source": "River Crab Blue Water Inn",
+        "target": "Gandy Dancer"
+    },
+    {
+        "source": "River Crab Blue Water Inn",
+        "target": "Big Fish Seafood Bistro"
+    },
+    {
+        "source": "River Crab Blue Water Inn",
+        "target": "Grand Concourse"
+    },
+    {
+        "source": "River Crab Blue Water Inn",
+        "target": "Big Fish Seafood Bistro"
+    },
+    {
+        "source": "River Crab Blue Water Inn",
+        "target": "Charley's Crab"
+    },
+    {
+        "source": "River Crab Blue Water Inn",
+        "target": "Gandy Dancer Saloon/Oyster Bar"
+    },
+    {
+        "source": "River Crab Blue Water Inn",
+        "target": "Meriwether's"
+    },
+    {
+        "source": "River Crab Blue Water Inn",
+        "target": "Chart House"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Dan Kluger"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chef Michael Ferraro"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chef David Burke"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chef Daniel Boulud"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chef Derrick Fox"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Hearth"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Hugh Acheson"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Tim Love"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Dining with Flynn"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Marcus Samuelsson"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Dean Sheremet"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Geoffrey Zakarian"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Scott Conant"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Levi Eirinberg"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Amy Thielen"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chuck Hughes"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Cat Cora"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Anne-Sophie Pic"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "D'O - Davide Oldani"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Seamus Mullen"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Vegan Black Metal Chef"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Samin Nosrat"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Guy Savoy"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "David Chang"
+    },
+    {
+        "source": "Alex Guarnaschelli",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Taco Bell Careers",
+        "target": "Taco Bell"
+    },
+    {
+        "source": "Taco Bell Careers",
+        "target": "Chef Lorena Garcia"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Scott Conant"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "The Habit Burger Grill"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Chef G. Garvin"
+    },
+    {
+        "source": "Chef Jamie Gwen",
+        "target": "Geoffrey Zakarian"
+    },
+    {
+        "source": "Douglas Keane",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Douglas Keane",
+        "target": "Chef David Burke"
+    },
+    {
+        "source": "Cat Cora",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Cat Cora",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Cat Cora",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Cat Cora",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Cat Cora",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "\u00c9ric Frechon",
+        "target": "Guy Savoy"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Simon Bryant"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Shane Delia"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Magnum"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Gary Mehigan"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Chef Pete Evans"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Raymond Blanc"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Massimo Mele"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Manu Feildel",
+        "target": "Karen Martini"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Deutschland Karriere"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Diego Guerrero",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Cuoco Filippo La Mantia",
+        "target": "Pasqualino Barbasso"
+    },
+    {
+        "source": "Cuoco Filippo La Mantia",
+        "target": "Niko Romito"
+    },
+    {
+        "source": "Cuoco Filippo La Mantia",
+        "target": "Christian Bau"
+    },
+    {
+        "source": "Cuoco Filippo La Mantia",
+        "target": "Cristian D'Elia"
+    },
+    {
+        "source": "Cuoco Filippo La Mantia",
+        "target": "Mirko Ronzoni"
+    },
+    {
+        "source": "Cuoco Filippo La Mantia",
+        "target": "Antonino Cannavacciuolo"
+    },
+    {
+        "source": "Emmi CAFF\u00c8 LATTE",
+        "target": "Emmi CAFF\u00c8 LATTE"
+    },
+    {
+        "source": "David Chang",
+        "target": "Ludo Lefebvre"
+    },
+    {
+        "source": "David Chang",
+        "target": "Melissa King"
+    },
+    {
+        "source": "David Chang",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "David Chang",
+        "target": "Dan Kluger"
+    },
+    {
+        "source": "David Chang",
+        "target": "Chef Daniel Boulud"
+    },
+    {
+        "source": "David Chang",
+        "target": "Chef Ben Churchill"
+    },
+    {
+        "source": "David Chang",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "David Chang",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "David Chang",
+        "target": "Daniel Humm"
+    },
+    {
+        "source": "David Chang",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "David Chang",
+        "target": "Chef Richard Sandoval"
+    },
+    {
+        "source": "David Chang",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "David Chang",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "David Chang",
+        "target": "Enrique Olvera"
+    },
+    {
+        "source": "David Chang",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "David Chang",
+        "target": "Dining with Flynn"
+    },
+    {
+        "source": "David Chang",
+        "target": "John Whaite"
+    },
+    {
+        "source": "David Chang",
+        "target": "Marcel Vigneron"
+    },
+    {
+        "source": "David Chang",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "David Chang",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "David Chang",
+        "target": "Scott Conant"
+    },
+    {
+        "source": "David Chang",
+        "target": "Bruno M\u00e9nard"
+    },
+    {
+        "source": "David Chang",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "David Chang",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "David Chang",
+        "target": "Dean Sheremet"
+    },
+    {
+        "source": "David Chang",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "David Chang",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "David Chang",
+        "target": "Saransh Goila"
+    },
+    {
+        "source": "David Chang",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "David Chang",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "David Chang",
+        "target": "Camille Becerra"
+    },
+    {
+        "source": "David Chang",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "David Chang",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "David Chang",
+        "target": "Alex Atala"
+    },
+    {
+        "source": "David Chang",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "David Chang",
+        "target": "Jose Garces"
+    },
+    {
+        "source": "David Chang",
+        "target": "Amy Thielen"
+    },
+    {
+        "source": "David Chang",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "David Chang",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "David Chang",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "David Chang",
+        "target": "D'O - Davide Oldani"
+    },
+    {
+        "source": "David Chang",
+        "target": "Noma"
+    },
+    {
+        "source": "David Chang",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "David Chang",
+        "target": "The French Laundry"
+    },
+    {
+        "source": "David Chang",
+        "target": "Spike Mendelsohn"
+    },
+    {
+        "source": "David Chang",
+        "target": "Germ\u00e1n Martitegui"
+    },
+    {
+        "source": "David Chang",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "David Chang",
+        "target": "Magnum"
+    },
+    {
+        "source": "David Chang",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Dan Kluger",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Dan Kluger",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Dan Kluger",
+        "target": "Chef Daniel Boulud"
+    },
+    {
+        "source": "Dan Kluger",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Dan Kluger",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Dan Kluger",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Dan Kluger",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "Dan Kluger",
+        "target": "Alfred Portale"
+    },
+    {
+        "source": "Celler de Can Roca",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "Celler de Can Roca",
+        "target": "Juan Mari Arzak (P\u00e1gina oficial)"
+    },
+    {
+        "source": "Celler de Can Roca",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Chef Michael Ferraro"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Gavin Kaysen"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Relais & Ch\u00e2teaux"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Daniel Humm"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Chef Richard Sandoval"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Enrique Olvera"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Bradley Ogden"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Chef Francois Payard"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Blue Ribbon Restaurants"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Chef David Burke"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "James Martin"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Scott Conant"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Bruno M\u00e9nard"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Raymond Blanc"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Christophe Bacquie"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Sang Yoon"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Chef Charlie Palmer"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Amy Thielen"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Anne-Sophie Pic"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "D'O - Davide Oldani"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Jose Garces"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Chef Daniel Boulud",
+        "target": "Guy Savoy"
+    },
+    {
+        "source": "Olive Garden",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Olive Garden",
+        "target": "Olive Garden M\u00e9xico"
+    },
+    {
+        "source": "Relais & Ch\u00e2teaux",
+        "target": "Raymond Blanc"
+    },
+    {
+        "source": "Relais & Ch\u00e2teaux",
+        "target": "Antonino Cannavacciuolo"
+    },
+    {
+        "source": "Melissa King",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "Melissa King",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Melissa King",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "Melissa King",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Melissa King",
+        "target": "Brooke Williamson"
+    },
+    {
+        "source": "Melissa King",
+        "target": "Hugh Acheson"
+    },
+    {
+        "source": "Melissa King",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Melissa King",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Melissa King",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Taco Bell Cyprus",
+        "target": "Taco Bell Kuwait"
+    },
+    {
+        "source": "Taco Bell Cyprus",
+        "target": "Taco Bell Costa Rica"
+    },
+    {
+        "source": "Taco Bell Cyprus",
+        "target": "\u30bf\u30b3\u30d9\u30eb \u30b8\u30e3\u30d1\u30f3\u3000Taco Bell Japan"
+    },
+    {
+        "source": "Taco Bell Cyprus",
+        "target": "Taco Bell"
+    },
+    {
+        "source": "Taco Bell Cyprus",
+        "target": "Taco Bell UK"
+    },
+    {
+        "source": "Taco Bell Cyprus",
+        "target": "Taco Bell Guatemala"
+    },
+    {
+        "source": "Taco Bell Cyprus",
+        "target": "Taco Bell El Salvador"
+    },
+    {
+        "source": "Taco Bell Cyprus",
+        "target": "Taco Bell India"
+    },
+    {
+        "source": "Taco Bell Cyprus",
+        "target": "Taco Bell Rep Dom"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Puesto",
+        "target": "Burger Lounge"
+    },
+    {
+        "source": "Gandy Dancer Saloon/Oyster Bar",
+        "target": "Bubba Gump Shrimp Co."
+    },
+    {
+        "source": "Gandy Dancer Saloon/Oyster Bar",
+        "target": "Gandy Dancer"
+    },
+    {
+        "source": "Gandy Dancer Saloon/Oyster Bar",
+        "target": "Grand Concourse"
+    },
+    {
+        "source": "Gandy Dancer Saloon/Oyster Bar",
+        "target": "Big Fish Seafood Bistro"
+    },
+    {
+        "source": "Gandy Dancer Saloon/Oyster Bar",
+        "target": "Charley's Crab"
+    },
+    {
+        "source": "Gandy Dancer Saloon/Oyster Bar",
+        "target": "Chart House"
+    },
+    {
+        "source": "Gandy Dancer Saloon/Oyster Bar",
+        "target": "Meriwether's"
+    },
+    {
+        "source": "Gandy Dancer Saloon/Oyster Bar",
+        "target": "Big Fish Seafood Bistro"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Japan"
+    },
+    {
+        "source": "McDonald's",
+        "target": "\u9ea5\u7576\u52de"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "Anjali Pathak",
+        "target": "Hari Ghotra"
+    },
+    {
+        "source": "Maru Botana",
+        "target": "Pablo Massey"
+    },
+    {
+        "source": "Maru Botana",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Hilah Cooking",
+        "target": "Nicko's Kitchen"
+    },
+    {
+        "source": "Hilah Cooking",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Hilah Cooking",
+        "target": "The Edgy Veg"
+    },
+    {
+        "source": "Hilah Cooking",
+        "target": "Ochikeron"
+    },
+    {
+        "source": "Hilah Cooking",
+        "target": "Nikki Dinki"
+    },
+    {
+        "source": "Hilah Cooking",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Gregory Gourdet",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Gregory Gourdet",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "Gregory Gourdet",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Gregory Gourdet",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Gregory Gourdet",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Gregory Gourdet",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Domino's Mx",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Domino's Mx",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Mx",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "ad hoc & addendum",
+        "target": "The French Laundry"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Chef Derrick Fox"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Marc Forgione"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Dining with Flynn"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Dean Sheremet"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Chef Marcela Valladolid"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Chef Kent Graham"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Scott Conant"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Marcus Samuelsson"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Levi Eirinberg"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Wolfgang Puck"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Josh Elkin"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "Geoffrey Zakarian",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Mart\u00edn Berasategui",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Mart\u00edn Berasategui",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Mart\u00edn Berasategui",
+        "target": "Karlos Argui\u00f1ano"
+    },
+    {
+        "source": "Mart\u00edn Berasategui",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Mart\u00edn Berasategui",
+        "target": "Quique Dacosta"
+    },
+    {
+        "source": "Mart\u00edn Berasategui",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Ludo Lefebvre"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Brooke Williamson"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Cesare Casella"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Hugh Acheson"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Kunal Kapur"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Fabio Viviani"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Chef David Burke"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Scott Conant"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Chef Jennifer Carroll"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Roxanne Spruance"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Chef Charlie Palmer"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Marcus Samuelsson"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Chef Kent Graham",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Blue Ribbon Restaurants"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef David Burke"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Blue Ribbon Fried Chicken"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Michael White"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Michelle Bernstein"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Derrick Fox"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Cesare Casella"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Tim Love"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Dining with Flynn"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Sue Zemanick"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Wolfgang Puck"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Sang Yoon"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Charlie Palmer"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Marcus Samuelsson"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Chef Nina Compton"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Seamus Mullen"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Harlem EatUp"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Vegan Black Metal Chef"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Josh Elkin"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Alfred Portale"
+    },
+    {
+        "source": "Scott Conant",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Crepes & Waffles",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "Crepes & Waffles",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Joanna \u5289\u97cb\u5f64",
+        "target": "MASA\u306e\u6599\u7406ABC"
+    },
+    {
+        "source": "Guga Rocha",
+        "target": "Alex Atala"
+    },
+    {
+        "source": "Guga Rocha",
+        "target": "Carlos Bertolazzi"
+    },
+    {
+        "source": "Guga Rocha",
+        "target": "Ogro Jimmy"
+    },
+    {
+        "source": "Guga Rocha",
+        "target": "Jo\u00e3o Alcantara"
+    },
+    {
+        "source": "Guga Rocha",
+        "target": "Chef Diego Lozano"
+    },
+    {
+        "source": "Jo\u00e3o Alcantara",
+        "target": "Carlos Bertolazzi"
+    },
+    {
+        "source": "Burger King Nederland",
+        "target": "Burger King M\u00e9xico"
+    },
+    {
+        "source": "Burger King Nederland",
+        "target": "Burger King Malaysia"
+    },
+    {
+        "source": "Luna Grill",
+        "target": "The Habit Burger Grill"
+    },
+    {
+        "source": "Luna Grill",
+        "target": "Burger Lounge"
+    },
+    {
+        "source": "Luna Grill",
+        "target": "Zo\u0451s Kitchen"
+    },
+    {
+        "source": "Chef Kiran Jethwa",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "foodpanda",
+        "target": "foodpanda"
+    },
+    {
+        "source": "foodpanda",
+        "target": "foodpanda"
+    },
+    {
+        "source": "foodpanda",
+        "target": "foodpanda"
+    },
+    {
+        "source": "foodpanda",
+        "target": "foodpanda - \u7a7a\u8179\u718a\u8c93"
+    },
+    {
+        "source": "foodpanda",
+        "target": "foodpanda"
+    },
+    {
+        "source": "foodpanda",
+        "target": "foodpanda"
+    },
+    {
+        "source": "foodpanda",
+        "target": "McDonald's"
+    },
+    {
+        "source": "foodpanda",
+        "target": "Hardee's Pakistan"
+    },
+    {
+        "source": "foodpanda",
+        "target": "Nando's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "\u9054\u7f8e\u6a02\u62ab\u85a9",
+        "target": "\ub3c4\ubbf8\ub178\ud53c\uc790(Dominostory)"
+    },
+    {
+        "source": "\u9054\u7f8e\u6a02\u62ab\u85a9",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "\u9054\u7f8e\u6a02\u62ab\u85a9",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "\u9054\u7f8e\u6a02\u62ab\u85a9",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "\u9054\u7f8e\u6a02\u62ab\u85a9",
+        "target": "foodpanda - \u7a7a\u8179\u718a\u8c93"
+    },
+    {
+        "source": "\u9054\u7f8e\u6a02\u62ab\u85a9",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "\u9054\u7f8e\u6a02\u62ab\u85a9",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Santiago Giorgini",
+        "target": "Alex Atala"
+    },
+    {
+        "source": "Santiago Giorgini",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "Santiago Giorgini",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Santiago Giorgini",
+        "target": "Felicitas Pizarro"
+    },
+    {
+        "source": "Santiago Giorgini",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Paraguay"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "Juliana Lopez May",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "Juliana Lopez May",
+        "target": "Pablo Massey"
+    },
+    {
+        "source": "Juliana Lopez May",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Juliana Lopez May",
+        "target": "Delverde"
+    },
+    {
+        "source": "Juliana Lopez May",
+        "target": "Germ\u00e1n Martitegui"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Burger King Thailand",
+        "target": "Outback Steakhouse"
+    },
+    {
+        "source": "Burger King Thailand",
+        "target": "Bonefish Grill"
+    },
+    {
+        "source": "Burger King Thailand",
+        "target": "Roy's Restaurant"
+    },
+    {
+        "source": "Daniel Humm",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Daniel Humm",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Daniel Humm",
+        "target": "Chef Michael Ferraro"
+    },
+    {
+        "source": "Daniel Humm",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Daniel Humm",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Daniel Humm",
+        "target": "Chef Ben Churchill"
+    },
+    {
+        "source": "Daniel Humm",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Daniel Humm",
+        "target": "Magnum"
+    },
+    {
+        "source": "Daniel Humm",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Audra Morrice",
+        "target": "Bruno M\u00e9nard"
+    },
+    {
+        "source": "Audra Morrice",
+        "target": "Gary Mehigan"
+    },
+    {
+        "source": "Audra Morrice",
+        "target": "Susur Lee"
+    },
+    {
+        "source": "Katie Pix",
+        "target": "The French Laundry"
+    },
+    {
+        "source": "Justin Warner",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Justin Warner",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Justin Warner",
+        "target": "Nikki Dinki"
+    },
+    {
+        "source": "Justin Warner",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Chef Ana Paula",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Ana Paula",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "SORTEDfood",
+        "target": "Krispy Kreme UK"
+    },
+    {
+        "source": "SORTEDfood",
+        "target": "Hari Ghotra"
+    },
+    {
+        "source": "SORTEDfood",
+        "target": "Ben Ebbrell - Sorted Chef"
+    },
+    {
+        "source": "SORTEDfood",
+        "target": "Donal Skehan"
+    },
+    {
+        "source": "SORTEDfood",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "SORTEDfood",
+        "target": "Felicitas Pizarro"
+    },
+    {
+        "source": "SORTEDfood",
+        "target": "Food Busker"
+    },
+    {
+        "source": "SORTEDfood",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "\u30bf\u30b3\u30d9\u30eb \u30b8\u30e3\u30d1\u30f3\u3000Taco Bell Japan",
+        "target": "Taco Bell UK"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Bradley Ogden"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Chef Richard Sandoval"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Michael Lomonaco"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Sang Yoon"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Chef Charlie Palmer"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Chef Brian Duffy"
+    },
+    {
+        "source": "Chef David Burke",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Buddy Valastro",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Buddy Valastro",
+        "target": "Levi Eirinberg"
+    },
+    {
+        "source": "Simon Gault",
+        "target": "Wolfgang Puck"
+    },
+    {
+        "source": "Simon Gault",
+        "target": "Peter Kuruvita"
+    },
+    {
+        "source": "Simon Gault",
+        "target": "Chef Jimmy Boswell"
+    },
+    {
+        "source": "Simon Gault",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "\ub3c4\ubbf8\ub178\ud53c\uc790(Dominostory)",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "\ub3c4\ubbf8\ub178\ud53c\uc790(Dominostory)",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "\ub3c4\ubbf8\ub178\ud53c\uc790(Dominostory)",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "Opry City Stage"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Gaston Acurio",
+        "target": "Papacho's"
+    },
+    {
+        "source": "Gaston Acurio",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "Gaston Acurio",
+        "target": "Quique Dacosta"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Chef Nina Compton"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Dining with Flynn"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Chef Sue Zemanick"
+    },
+    {
+        "source": "Hugh Acheson",
+        "target": "Spago Las Vegas"
+    },
+    {
+        "source": "Tim Love",
+        "target": "Marcus Samuelsson"
+    },
+    {
+        "source": "Tim Love",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Tim Love",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Tim Love",
+        "target": "Michael White"
+    },
+    {
+        "source": "Tim Love",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Tim Love",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Tim Love",
+        "target": "Fabio Viviani"
+    },
+    {
+        "source": "Tim Love",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Matthew Kenney"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Chef Michelle Bernstein"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Stephanie Izard"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Marcus Samuelsson"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Camille Becerra"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Seamus Mullen"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Dining with Flynn",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Madison Cowan",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "Lindsay Ann Bakes",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "Lindsay Ann Bakes",
+        "target": "Gemma Stafford"
+    },
+    {
+        "source": "Felicitas Pizarro",
+        "target": "Donal Skehan"
+    },
+    {
+        "source": "Felicitas Pizarro",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Felicitas Pizarro",
+        "target": "Food Busker"
+    },
+    {
+        "source": "Felicitas Pizarro",
+        "target": "Cook with Amber"
+    },
+    {
+        "source": "Felicitas Pizarro",
+        "target": "Alex French Guy Cooking"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Chef Sam Talbot"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Monti Carlo"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Christine Ha"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Josh Marks"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Wolfgang Puck"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Eddie Jackson - FIT CHEF EDDIE"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Cindy Pawlcyn"
+    },
+    {
+        "source": "Spago Las Vegas",
+        "target": "Hearth"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "DedeMed"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Chef Sue Zemanick"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Bradley Ogden"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Brooke Williamson"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Jos\u00e9 Santaella"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Fabio Viviani",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Chef Carmen Gonzalez",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Hari Ghotra",
+        "target": "Chetna Makan"
+    },
+    {
+        "source": "Chef Sue Zemanick",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Chef Sue Zemanick",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Chef Sue Zemanick",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Chef Sue Zemanick",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Chef Sue Zemanick",
+        "target": "Dale Talde"
+    },
+    {
+        "source": "Chef Sue Zemanick",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Clodagh McKenna",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Clodagh McKenna",
+        "target": "Kevin Dundon"
+    },
+    {
+        "source": "Emmi CAFF\u00c8 LATTE",
+        "target": "Emmi CAFF\u00c8 LATTE"
+    },
+    {
+        "source": "Emmi CAFF\u00c8 LATTE",
+        "target": "KFC"
+    },
+    {
+        "source": "Emmi CAFF\u00c8 LATTE",
+        "target": "Emmi CAFF\u00c8 LATTE"
+    },
+    {
+        "source": "Emmi CAFF\u00c8 LATTE",
+        "target": "Emmi CAFF\u00c8 LATTE"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "Gemma Stafford"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "Food Busker"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "Rachel Allen"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "Cook with Amber"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "Josh Elkin"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "Kevin Dundon"
+    },
+    {
+        "source": "Donal Skehan",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza T\u00fcrkiye"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Taco Bell UK",
+        "target": "Taco Bell Kuwait"
+    },
+    {
+        "source": "Taco Bell UK",
+        "target": "Taco Bell"
+    },
+    {
+        "source": "Taco Bell UK",
+        "target": "Taco Bell Rep Dom"
+    },
+    {
+        "source": "Taco Bell UK",
+        "target": "Taco Bell India"
+    },
+    {
+        "source": "Alex Atala",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "Alex Atala",
+        "target": "Los Petersen Cocineros"
+    },
+    {
+        "source": "Alex Atala",
+        "target": "Massimo Mele"
+    },
+    {
+        "source": "Alex Atala",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Alex Atala",
+        "target": "Ogro Jimmy"
+    },
+    {
+        "source": "Alex Atala",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Chef Lorena Garcia",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Lorena Garcia",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "Chef Lorena Garcia",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Chef Lorena Garcia",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Domino's Pizza T\u00fcrkiye",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza T\u00fcrkiye",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "Domino's Pizza T\u00fcrkiye",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Domino's Pizza T\u00fcrkiye",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza T\u00fcrkiye",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Guy Savoy",
+        "target": "Taste Of Paris Official"
+    },
+    {
+        "source": "Guy Savoy",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Guy Savoy",
+        "target": "Anne-Sophie Pic"
+    },
+    {
+        "source": "Guy Savoy",
+        "target": "Christian Le Squer"
+    },
+    {
+        "source": "Guy Savoy",
+        "target": "Marc Veyrat"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Whataburger",
+        "target": "Papacho's"
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Bubba Gump Shrimp Co."
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Gandy Dancer"
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Big Fish Seafood Bistro"
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Morton's The Steakhouse"
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Big Fish Seafood Bistro"
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Charley's Crab"
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Chart House"
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Meriwether's"
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Grotto"
+    },
+    {
+        "source": "Grand Concourse",
+        "target": "Charley's Crab"
+    },
+    {
+        "source": "Brooke Williamson",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "Brooke Williamson",
+        "target": "Mei Lin"
+    },
+    {
+        "source": "Brooke Williamson",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Brooke Williamson",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Brooke Williamson",
+        "target": "Chef Sheldon Simeon"
+    },
+    {
+        "source": "Robl\u00e9",
+        "target": "Chick-fil-A"
+    },
+    {
+        "source": "Chef Michelle Bernstein",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Chef Michelle Bernstein",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Chef Michelle Bernstein",
+        "target": "Marc Forgione"
+    },
+    {
+        "source": "Chef Michelle Bernstein",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Chef Michelle Bernstein",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Chef Michelle Bernstein",
+        "target": "Chef Jamie DeRosa"
+    },
+    {
+        "source": "Chef Michelle Bernstein",
+        "target": "Stephanie Izard"
+    },
+    {
+        "source": "Big Fish Seafood Bistro",
+        "target": "Gandy Dancer"
+    },
+    {
+        "source": "Big Fish Seafood Bistro",
+        "target": "Big Fish Seafood Bistro"
+    },
+    {
+        "source": "Big Fish Seafood Bistro",
+        "target": "Charley's Crab"
+    },
+    {
+        "source": "Big Fish Seafood Bistro",
+        "target": "Meriwether's"
+    },
+    {
+        "source": "Big Fish Seafood Bistro",
+        "target": "Chart House"
+    },
+    {
+        "source": "Big Fish Seafood Bistro",
+        "target": "Grotto"
+    },
+    {
+        "source": "Leslie Gilliams",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Leslie Gilliams",
+        "target": "Monti Carlo"
+    },
+    {
+        "source": "Leslie Gilliams",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "Leslie Gilliams",
+        "target": "Levi Eirinberg"
+    },
+    {
+        "source": "Leslie Gilliams",
+        "target": "Christine Ha"
+    },
+    {
+        "source": "Leslie Gilliams",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Franklin Becker",
+        "target": "Chef Michael Ferraro"
+    },
+    {
+        "source": "Jehangir",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Cocina familiar con Javier Romero",
+        "target": "Eduardo Palazuelos"
+    },
+    {
+        "source": "Cocina familiar con Javier Romero",
+        "target": "Enrique Olvera"
+    },
+    {
+        "source": "Cocina familiar con Javier Romero",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Brew Bistro and Lounge"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Paraguay"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Japan"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "foodpanda / hellofood"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "Alberto Chicote"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Manjula's Kitchen - Indian Vegetarian Recipes",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Manjula's Kitchen - Indian Vegetarian Recipes",
+        "target": "Bobby Flay"
+    },
+    {
+        "source": "Manjula's Kitchen - Indian Vegetarian Recipes",
+        "target": "Chetna Makan"
+    },
+    {
+        "source": "Manjula's Kitchen - Indian Vegetarian Recipes",
+        "target": "Saransh Goila"
+    },
+    {
+        "source": "Manjula's Kitchen - Indian Vegetarian Recipes",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Xi'an Famous Foods \u897f\u5b89\u540d\u5403",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Chef Natale Giunta",
+        "target": "Cristian D'Elia"
+    },
+    {
+        "source": "Gary Mehigan",
+        "target": "Bruno M\u00e9nard"
+    },
+    {
+        "source": "Gary Mehigan",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Gary Mehigan",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "Gary Mehigan",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Gary Mehigan",
+        "target": "Karen Martini"
+    },
+    {
+        "source": "Chef Francois Payard",
+        "target": "Chef Michael Ferraro"
+    },
+    {
+        "source": "Chef Francois Payard",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Ochikeron",
+        "target": "Chef Todd Mohr"
+    },
+    {
+        "source": "Ochikeron",
+        "target": "Vicky Ratnani"
+    },
+    {
+        "source": "Ochikeron",
+        "target": "Chef Cl\u00e9ment"
+    },
+    {
+        "source": "Rachel Allen",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Rachel Allen",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Rachel Allen",
+        "target": "Kevin Dundon"
+    },
+    {
+        "source": "Rachel Allen",
+        "target": "James Martin"
+    },
+    {
+        "source": "Chili's Beirut",
+        "target": "Chili's Qatar"
+    },
+    {
+        "source": "Taco Bell Guatemala",
+        "target": "Taco Bell Costa Rica"
+    },
+    {
+        "source": "Taco Bell Guatemala",
+        "target": "Taco Bell"
+    },
+    {
+        "source": "Taco Bell Guatemala",
+        "target": "Telepizza Guatemala"
+    },
+    {
+        "source": "Taco Bell Guatemala",
+        "target": "Taco Bell El Salvador"
+    },
+    {
+        "source": "Taco Bell Guatemala",
+        "target": "Taco Bell Rep Dom"
+    },
+    {
+        "source": "foodpanda / hellofood",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "foodpanda / hellofood",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "foodpanda / hellofood",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "foodpanda / hellofood",
+        "target": "hellofood"
+    },
+    {
+        "source": "foodpanda / hellofood",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "foodpanda / hellofood",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "foodpanda / hellofood",
+        "target": "foodpanda - \u7a7a\u8179\u718a\u8c93"
+    },
+    {
+        "source": "Chef Rusty Hamlin",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Chef Rusty Hamlin",
+        "target": "Stephanie Izard"
+    },
+    {
+        "source": "Chef Rusty Hamlin",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Red Lobster M\u00e9xico",
+        "target": "Olive Garden M\u00e9xico"
+    },
+    {
+        "source": "Red Lobster M\u00e9xico",
+        "target": "Wings"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "foodpanda"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Bruno M\u00e9nard",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Bruno M\u00e9nard",
+        "target": "Jean-Fran\u00e7ois Pi\u00e8ge     -      Page Officielle"
+    },
+    {
+        "source": "Bruno M\u00e9nard",
+        "target": "Anne-Sophie Pic"
+    },
+    {
+        "source": "Bruno M\u00e9nard",
+        "target": "YANNICK ALLENO OFFICIEL"
+    },
+    {
+        "source": "Bruno M\u00e9nard",
+        "target": "Christophe Adam"
+    },
+    {
+        "source": "Bruno M\u00e9nard",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Bruno M\u00e9nard",
+        "target": "Susur Lee"
+    },
+    {
+        "source": "Bruno M\u00e9nard",
+        "target": "Christophe Michalak"
+    },
+    {
+        "source": "Bruno M\u00e9nard",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Bobby's Burger Palace"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Blue Ribbon Restaurants"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Kunal Kapur"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Emma Frisch"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Levi Eirinberg"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Cook with Amber"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Chuck Hughes"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Vegan Black Metal Chef"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Chef Elizabeth Falkner"
+    },
+    {
+        "source": "Bobby Flay",
+        "target": "Nikki Dinki"
+    },
+    {
+        "source": "Saransh Goila",
+        "target": "Chef Cl\u00e9ment"
+    },
+    {
+        "source": "Saransh Goila",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Saransh Goila",
+        "target": "Vicky Ratnani"
+    },
+    {
+        "source": "Food Busker",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "Food Busker",
+        "target": "Cook with Amber"
+    },
+    {
+        "source": "Food Busker",
+        "target": "Alex French Guy Cooking"
+    },
+    {
+        "source": "Mirko Ronzoni",
+        "target": "Alessandro Borghese"
+    },
+    {
+        "source": "Mirko Ronzoni",
+        "target": "Niko Romito"
+    },
+    {
+        "source": "Mirko Ronzoni",
+        "target": "Bruno Barbieri"
+    },
+    {
+        "source": "Mirko Ronzoni",
+        "target": "Sonia Peronaci"
+    },
+    {
+        "source": "Mirko Ronzoni",
+        "target": "Antonino Cannavacciuolo"
+    },
+    {
+        "source": "Mirko Ronzoni",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "MASA\u306e\u6599\u7406ABC",
+        "target": "Vicky Ratnani"
+    },
+    {
+        "source": "MASA\u306e\u6599\u7406ABC",
+        "target": "Chef Cl\u00e9ment"
+    },
+    {
+        "source": "MASA\u306e\u6599\u7406ABC",
+        "target": "\u9ea5\u7576\u52de"
+    },
+    {
+        "source": "Delverde",
+        "target": "Delverde"
+    },
+    {
+        "source": "Delverde",
+        "target": "Delverde"
+    },
+    {
+        "source": "Delverde",
+        "target": "Marcus Samuelsson"
+    },
+    {
+        "source": "Delverde",
+        "target": "Mary Nolan, Bon App\u00e9tit Executive Chef"
+    },
+    {
+        "source": "Jose Garces",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Jose Garces",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "\u7fe0\u83ef\u9910\u5ef3 Tsui Wah Restaurant",
+        "target": "foodpanda"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Marcel Vigneron",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Marcel Vigneron",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Marcel Vigneron",
+        "target": "Nyesha Arrington"
+    },
+    {
+        "source": "Marcel Vigneron",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Carl's Jr. NZ",
+        "target": "KFC"
+    },
+    {
+        "source": "Carl's Jr. NZ",
+        "target": "Carl's Jr."
+    },
+    {
+        "source": "Massimo Mele",
+        "target": "Peter Kuruvita"
+    },
+    {
+        "source": "Massimo Mele",
+        "target": "Shane Delia"
+    },
+    {
+        "source": "Massimo Mele",
+        "target": "Chef Pete Evans"
+    },
+    {
+        "source": "Massimo Mele",
+        "target": "Ignacio Mattos"
+    },
+    {
+        "source": "Massimo Mele",
+        "target": "Karen Martini"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "Hardee's"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Vegan Black Metal Chef",
+        "target": "Marcus Samuelsson"
+    },
+    {
+        "source": "Vegan Black Metal Chef",
+        "target": "Marc Forgione"
+    },
+    {
+        "source": "Vegan Black Metal Chef",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Vegan Black Metal Chef",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Vegan Black Metal Chef",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Vegan Black Metal Chef",
+        "target": "Wolfgang Puck"
+    },
+    {
+        "source": "Vegan Black Metal Chef",
+        "target": "Chef Marcela Valladolid"
+    },
+    {
+        "source": "Vegan Black Metal Chef",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Vegan Black Metal Chef",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Ludo Lefebvre"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Michael White"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Marcus Samuelsson"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Amy Thielen"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "D'O - Davide Oldani"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Seamus Mullen"
+    },
+    {
+        "source": "Chef Elizabeth Falkner",
+        "target": "Josh Elkin"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Vicky Ratnani",
+        "target": "Ranveer Brar"
+    },
+    {
+        "source": "Vicky Ratnani",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Vicky Ratnani",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Vicky Ratnani",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Vicky Ratnani",
+        "target": "KFC"
+    },
+    {
+        "source": "Hakim Chajar",
+        "target": "Ricardo Cuisine"
+    },
+    {
+        "source": "Hakim Chajar",
+        "target": "Chuck Hughes"
+    },
+    {
+        "source": "Acapulco",
+        "target": "Chevys Fresh Mex"
+    },
+    {
+        "source": "Acapulco",
+        "target": "El Torito"
+    },
+    {
+        "source": "Blue Ribbon Fried Chicken",
+        "target": "Blue Ribbon Restaurants"
+    },
+    {
+        "source": "Paul Qui",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Cadillac Bar Kemah",
+        "target": "Lillie's Asian Cuisine"
+    },
+    {
+        "source": "Gandy Dancer",
+        "target": "Charley's Crab"
+    },
+    {
+        "source": "Gandy Dancer",
+        "target": "Big Fish Seafood Bistro"
+    },
+    {
+        "source": "Gandy Dancer",
+        "target": "Meriwether's"
+    },
+    {
+        "source": "Gandy Dancer",
+        "target": "Grotto"
+    },
+    {
+        "source": "Chef Sam Talbot",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Taco Bell Costa Rica",
+        "target": "Taco Bell"
+    },
+    {
+        "source": "Taco Bell Costa Rica",
+        "target": "Taco Bell Rep Dom"
+    },
+    {
+        "source": "Taco Bell Costa Rica",
+        "target": "Taco Bell El Salvador"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Chart House",
+        "target": "Peohe's"
+    },
+    {
+        "source": "Chart House",
+        "target": "Grotto"
+    },
+    {
+        "source": "Chart House",
+        "target": "Charley's Crab"
+    },
+    {
+        "source": "El Torito",
+        "target": "Chevys Fresh Mex"
+    },
+    {
+        "source": "El Torito",
+        "target": "On The Border"
+    },
+    {
+        "source": "El Torito",
+        "target": "Pescaria"
+    },
+    {
+        "source": "foodpanda - \u7a7a\u8179\u718a\u8c93",
+        "target": "Subway"
+    },
+    {
+        "source": "foodpanda - \u7a7a\u8179\u718a\u8c93",
+        "target": "Second Floor Cafe \u8cb3\u6a13\u9910\u98f2"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Ludo Lefebvre"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Blue Ribbon Restaurants"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Five Guys"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Stephanie Izard"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Chef Jet Tila"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Amy Thielen"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "D'O - Davide Oldani"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Harlem EatUp"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Samin Nosrat"
+    },
+    {
+        "source": "Marcus Samuelsson",
+        "target": "Josh Elkin"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Chef Jennifer Carroll",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Grotto",
+        "target": "Charley's Crab"
+    },
+    {
+        "source": "Grotto",
+        "target": "La Griglia"
+    },
+    {
+        "source": "Grotto",
+        "target": "Meriwether's"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Amandine Chaignot"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Christophe Michalak"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Anne-Sophie Pic"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "YANNICK ALLENO OFFICIEL"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Jean-Fran\u00e7ois Pi\u00e8ge     -      Page Officielle"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Pierre Gagnaire"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "No\u00ebmie Honiat Top Chef"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Valentin Neraudeau"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Pierre Sang Boyer Officiel"
+    },
+    {
+        "source": "Christian Le Squer",
+        "target": "Roxanne Spruance"
+    },
+    {
+        "source": "Francis Mallmann",
+        "target": "Narda Lepes"
+    },
+    {
+        "source": "Francis Mallmann",
+        "target": "Pedro Lambertini"
+    },
+    {
+        "source": "Francis Mallmann",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Francis Mallmann",
+        "target": "Pablo Massey"
+    },
+    {
+        "source": "Francis Mallmann",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Francis Mallmann",
+        "target": "Germ\u00e1n Martitegui"
+    },
+    {
+        "source": "Francis Mallmann",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Hardee's",
+        "target": "Hardee's Pakistan"
+    },
+    {
+        "source": "Hardee's",
+        "target": "Carl's Jr."
+    },
+    {
+        "source": "Wolfgang Puck",
+        "target": "Chef Andrew Gruel"
+    },
+    {
+        "source": "Wolfgang Puck",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Wolfgang Puck",
+        "target": "Cucina by Wolfgang Puck"
+    },
+    {
+        "source": "Wolfgang Puck",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Wolfgang Puck",
+        "target": "D'O - Davide Oldani"
+    },
+    {
+        "source": "Wolfgang Puck",
+        "target": "Four Seasons Hotels and Resorts"
+    },
+    {
+        "source": "Wolfgang Puck",
+        "target": "Sam Choy"
+    },
+    {
+        "source": "Wolfgang Puck",
+        "target": "Amy Thielen"
+    },
+    {
+        "source": "Jock Zonfrillo",
+        "target": "Simon Bryant"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Suzanne Goin"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Chef Andrew Gruel"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Maneet Chauhan"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Veggie Grill"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Chef Ben Ford"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "John Whaite"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Chef Damaris Phillips"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Chef Jet Tila",
+        "target": "Anne Burrell"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Crystal Jade Palace - JW Marriott Hotel Hanoi",
+        "target": "Crystal Jade Singapore"
+    },
+    {
+        "source": "Amy Thielen",
+        "target": "Chef Damaris Phillips"
+    },
+    {
+        "source": "Franklin Barbecue",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Subway, Cayman Islands",
+        "target": "Subway"
+    },
+    {
+        "source": "Anne-Sophie Pic",
+        "target": "Taste Of Paris Official"
+    },
+    {
+        "source": "Anne-Sophie Pic",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Anne-Sophie Pic",
+        "target": "Los Petersen Cocineros"
+    },
+    {
+        "source": "Anne-Sophie Pic",
+        "target": "YANNICK ALLENO OFFICIEL"
+    },
+    {
+        "source": "Anne-Sophie Pic",
+        "target": "Jean-Fran\u00e7ois Pi\u00e8ge     -      Page Officielle"
+    },
+    {
+        "source": "Anne-Sophie Pic",
+        "target": "The French Laundry"
+    },
+    {
+        "source": "Anne-Sophie Pic",
+        "target": "Christophe Michalak"
+    },
+    {
+        "source": "Anne-Sophie Pic",
+        "target": "Marc Veyrat"
+    },
+    {
+        "source": "Fast Ed",
+        "target": "Karen Martini"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Seamus Mullen",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Seamus Mullen",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Seamus Mullen",
+        "target": "Chef Pete Evans"
+    },
+    {
+        "source": "Seamus Mullen",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Seamus Mullen",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Seamus Mullen",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Seamus Mullen",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Seamus Mullen",
+        "target": "Camille Becerra"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Antonino Cannavacciuolo",
+        "target": "Pasqualino Barbasso"
+    },
+    {
+        "source": "Antonino Cannavacciuolo",
+        "target": "Alessandro Borghese"
+    },
+    {
+        "source": "Antonino Cannavacciuolo",
+        "target": "Christian Bau"
+    },
+    {
+        "source": "Antonino Cannavacciuolo",
+        "target": "Andy Luotto"
+    },
+    {
+        "source": "Antonino Cannavacciuolo",
+        "target": "Cristian D'Elia"
+    },
+    {
+        "source": "Antonino Cannavacciuolo",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Taco Bell India",
+        "target": "Taco Bell"
+    },
+    {
+        "source": "Alfred Portale",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Alfred Portale",
+        "target": "Enrique Olvera"
+    },
+    {
+        "source": "Alfred Portale",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Alfred Portale",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Alfred Portale",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Alfred Portale",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Chef Brian Duffy",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Chef Brian Duffy",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Chuck Hughes"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Levi Eirinberg"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Josh Elkin"
+    },
+    {
+        "source": "Anne Burrell",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "Chef Richard Sandoval"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "Suzanne Goin"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "The Tuscan Gun"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "Blue Ribbon Restaurants"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "Chef Ben Churchill"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "Josh Elkin"
+    },
+    {
+        "source": "Ludo Lefebvre",
+        "target": "Magnum"
+    },
+    {
+        "source": "Bobby's Burger Palace",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Red Robin Gourmet Burgers",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Sam Choy",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Chef Richard Sandoval",
+        "target": "Enrique Olvera"
+    },
+    {
+        "source": "Chef Richard Sandoval",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Chef Richard Sandoval",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Chef Richard Sandoval",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Chef Richard Sandoval",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Chef Richard Sandoval",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Chef Richard Sandoval",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Chef Richard Sandoval",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Chef Richard Sandoval",
+        "target": "Chef Charlie Palmer"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Nyesha Arrington",
+        "target": "Chef Mary Sue Milliken"
+    },
+    {
+        "source": "Nyesha Arrington",
+        "target": "John Whaite"
+    },
+    {
+        "source": "Alex French Guy Cooking",
+        "target": "Cook with Amber"
+    },
+    {
+        "source": "Alex French Guy Cooking",
+        "target": "CAKE-BOY"
+    },
+    {
+        "source": "Charley's Crab",
+        "target": "Big Fish Seafood Bistro"
+    },
+    {
+        "source": "Charley's Crab",
+        "target": "Meriwether's"
+    },
+    {
+        "source": "Narda Lepes",
+        "target": "Los Petersen Cocineros"
+    },
+    {
+        "source": "Narda Lepes",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Narda Lepes",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Narda Lepes",
+        "target": "Germ\u00e1n Martitegui"
+    },
+    {
+        "source": "Narda Lepes",
+        "target": "Enrique Olvera"
+    },
+    {
+        "source": "Narda Lepes",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Mei Lin",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "Mei Lin",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Mei Lin",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Mei Lin",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Mei Lin",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Mei Lin",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Mei Lin",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "\ub9e5\ub3c4\ub0a0\ub4dc (McDonald's)",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's Paraguay",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Marc Forgione",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Marc Forgione",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Christophe Michalak",
+        "target": "Jean-Fran\u00e7ois Pi\u00e8ge     -      Page Officielle"
+    },
+    {
+        "source": "Christophe Michalak",
+        "target": "Christophe Bacquie"
+    },
+    {
+        "source": "Christophe Michalak",
+        "target": "Christophe Adam"
+    },
+    {
+        "source": "Taco Bell El Salvador",
+        "target": "Taco Bell"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Nicko's Kitchen",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Nicko's Kitchen",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "Nicko's Kitchen",
+        "target": "Chef Andrew Gruel"
+    },
+    {
+        "source": "Nicko's Kitchen",
+        "target": "Nikki Dinki"
+    },
+    {
+        "source": "Amandine Chaignot",
+        "target": "Pierre Sang Boyer Officiel"
+    },
+    {
+        "source": "Amandine Chaignot",
+        "target": "Taste Of Paris Official"
+    },
+    {
+        "source": "Domino's Guatemala",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "Domino's Guatemala",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Taco Bell",
+        "target": "Taco Bell Kuwait"
+    },
+    {
+        "source": "Taco Bell",
+        "target": "Telepizza Guatemala"
+    },
+    {
+        "source": "Taco Bell",
+        "target": "Taco Bell Rep Dom"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Christophe Adam"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Susur Lee"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Derrick Fox"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "The Tuscan Gun"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Cesare Casella"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Claire Robinson"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Marcela Valladolid"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Dean Sheremet"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Dan Steph & Emmy"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Duff Goldman"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chuck Hughes"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Gino D'Acampo"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Harold Dieterle"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Eddie Jackson - FIT CHEF EDDIE"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Monti Carlo"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Ben Ford"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Colin Fassnidge"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Levi Eirinberg"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Donatella Arpaia"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Spike Mendelsohn"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Michael Ferraro"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Michael Smith"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Josh Marks"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Stephanie Izard"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Maneet Chauhan"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Christine Ha"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Logan Junior Chef"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Roxanne Spruance"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Charlie Palmer"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Rick Tramonto"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "The French Laundry"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Tom Colicchio"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Ranveer Brar"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Thomas Keller"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Peter Kuruvita"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Andrew Gruel"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Al Brown New Zealand Chef"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Kunal Kapur"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef G. Garvin"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "James Martin"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Pete Evans"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Zac Kara"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Cook with Amber"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Claudia's Cocina"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Cook with Chef Duminda"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "Chef Aaron McCargo Jr"
+    },
+    {
+        "source": "Logan Junior Chef",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Tom Douglas Restaurants",
+        "target": "Cook with Amber"
+    },
+    {
+        "source": "Tom Douglas Restaurants",
+        "target": "Emma Frisch"
+    },
+    {
+        "source": "Raymond Blanc",
+        "target": "James Martin"
+    },
+    {
+        "source": "Raymond Blanc",
+        "target": "Noma"
+    },
+    {
+        "source": "Raymond Blanc",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Raymond Blanc",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Delverde",
+        "target": "Delverde"
+    },
+    {
+        "source": "Claire Robinson",
+        "target": "Aliya LeeKong"
+    },
+    {
+        "source": "Claire Robinson",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Francesco Sole",
+        "target": "Cristian D'Elia"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "KFC"
+    },
+    {
+        "source": "Chef Charlie Palmer",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Charlie Palmer",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Chef Charlie Palmer",
+        "target": "Julia Child"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Chef Damaris Phillips",
+        "target": "Nikki Dinki"
+    },
+    {
+        "source": "Chef Damaris Phillips",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Chef Damaris Phillips",
+        "target": "D'O - Davide Oldani"
+    },
+    {
+        "source": "Karlos Argui\u00f1ano",
+        "target": "RIBS - True American Barbecue"
+    },
+    {
+        "source": "Karlos Argui\u00f1ano",
+        "target": "Eva Argui\u00f1ano"
+    },
+    {
+        "source": "Karlos Argui\u00f1ano",
+        "target": "Bruno Oteiza"
+    },
+    {
+        "source": "Karlos Argui\u00f1ano",
+        "target": "Juan Mari Arzak (P\u00e1gina oficial)"
+    },
+    {
+        "source": "Karlos Argui\u00f1ano",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Cindy Pawlcyn",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Karen Martini",
+        "target": "Simon Bryant"
+    },
+    {
+        "source": "Karen Martini",
+        "target": "Shane Delia"
+    },
+    {
+        "source": "Karen Martini",
+        "target": "Chef Pete Evans"
+    },
+    {
+        "source": "Karen Martini",
+        "target": "Dan Steph & Emmy"
+    },
+    {
+        "source": "Karen Martini",
+        "target": "Colin Fassnidge"
+    },
+    {
+        "source": "Angelo Sosa",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Chef Dana Cohen HK",
+        "target": "Josh Marks"
+    },
+    {
+        "source": "Chef Dana Cohen HK",
+        "target": "Famous Dave's Bar-B-Que of America"
+    },
+    {
+        "source": "Chef Dana Cohen HK",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Chef Dana Cohen HK",
+        "target": "Christine Ha"
+    },
+    {
+        "source": "Taste of London",
+        "target": "Tom's Kitchen"
+    },
+    {
+        "source": "Taste of London",
+        "target": "Taste Of Paris Official"
+    },
+    {
+        "source": "Magnum",
+        "target": "Magnum"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Bradley Ogden"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Michel Nischan"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Dale Talde"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Sang Yoon"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Enrique Olvera"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Chef Cl\u00e9ment"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "'Wichcraft"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Tom Colicchio",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Jacques P\u00e9pin"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Matthew Kenney"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Stephanie Izard"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Camille Becerra"
+    },
+    {
+        "source": "Michel Nischan",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Pablo Massey",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Pablo Massey",
+        "target": "Germ\u00e1n Martitegui"
+    },
+    {
+        "source": "Pablo Massey",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Chef Ben Churchill",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Chef Sheldon Simeon",
+        "target": "Kristen Kish"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Barbie Marshall",
+        "target": "Josh Marks"
+    },
+    {
+        "source": "Barbie Marshall",
+        "target": "Monti Carlo"
+    },
+    {
+        "source": "Barbie Marshall",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Cristian D'Elia",
+        "target": "Alessandro Borghese"
+    },
+    {
+        "source": "Cristian D'Elia",
+        "target": "Chef Rubio"
+    },
+    {
+        "source": "Cristian D'Elia",
+        "target": "Bruno Barbieri"
+    },
+    {
+        "source": "Cristian D'Elia",
+        "target": "D'O - Davide Oldani"
+    },
+    {
+        "source": "Cristian D'Elia",
+        "target": "Cristian D'Elia"
+    },
+    {
+        "source": "Cristian D'Elia",
+        "target": "Sonia Peronaci"
+    },
+    {
+        "source": "Kunal Kapur",
+        "target": "Magnum"
+    },
+    {
+        "source": "Kunal Kapur",
+        "target": "Outlander Kitchen"
+    },
+    {
+        "source": "Kunal Kapur",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Kunal Kapur",
+        "target": "Kevin Dundon"
+    },
+    {
+        "source": "Chef G. Garvin",
+        "target": "Bradley Ogden"
+    },
+    {
+        "source": "Magnum",
+        "target": "Magnum"
+    },
+    {
+        "source": "Chili's Tunisie",
+        "target": "Chili's Qatar"
+    },
+    {
+        "source": "Outback Steakhouse",
+        "target": "Carrabba's Italian Grill"
+    },
+    {
+        "source": "Outback Steakhouse",
+        "target": "Bonefish Grill"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Opry City Stage",
+        "target": "KFC"
+    },
+    {
+        "source": "Subway",
+        "target": "foodpanda"
+    },
+    {
+        "source": "Subway",
+        "target": "foodpanda"
+    },
+    {
+        "source": "Duff Goldman",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "UMass Dining",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Cesare Casella"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Chef Carla Hall"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Jacques P\u00e9pin",
+        "target": "Samin Nosrat"
+    },
+    {
+        "source": "Telepizza Guatemala",
+        "target": "Pollo Campero Guatemala"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Chef Ben Ford",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Chef Ben Ford",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Chef Ben Ford",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Chef Ben Ford",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Ben Ford",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Eddie Jackson - FIT CHEF EDDIE",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Eddie Jackson - FIT CHEF EDDIE",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Enrique Olvera",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Enrique Olvera",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Enrique Olvera",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Enrique Olvera",
+        "target": "Eduardo Palazuelos"
+    },
+    {
+        "source": "Enrique Olvera",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Cesare Casella",
+        "target": "DedeMed"
+    },
+    {
+        "source": "Cesare Casella",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "Cesare Casella",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Cesare Casella",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Camille Becerra",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Jimmy John's",
+        "target": "Chef Andrew Gruel"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Kristen Kish",
+        "target": "Eric Ripert"
+    },
+    {
+        "source": "Kristen Kish",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Kristen Kish",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "\u9ea5\u7576\u52de"
+    },
+    {
+        "source": "Alberto Chicote",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Colin Fassnidge",
+        "target": "Monti Carlo"
+    },
+    {
+        "source": "Colin Fassnidge",
+        "target": "My Cupcake Addiction"
+    },
+    {
+        "source": "Colin Fassnidge",
+        "target": "Christine Ha"
+    },
+    {
+        "source": "Colin Fassnidge",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Carrabba's Italian Grill",
+        "target": "Bonefish Grill"
+    },
+    {
+        "source": "Carrabba's Italian Grill",
+        "target": "Roy's Restaurant"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Blue Ribbon Restaurants"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Michael White"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Sang Yoon"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "John Whaite"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Jos\u00e9 Santaella"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Chef Cl\u00e9ment"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Chef Mary Sue Milliken"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Kevin Dundon"
+    },
+    {
+        "source": "Eric Ripert",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Sang Yoon",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "Sang Yoon",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Sang Yoon",
+        "target": "Hubert Keller"
+    },
+    {
+        "source": "Sang Yoon",
+        "target": "Ken Oringer"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "Bradley Ogden"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "Johnny Iuzzini"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "Chef Cl\u00e9ment"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Hubert Keller",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Chef Michael Ferraro",
+        "target": "Four Seasons Hotels and Resorts"
+    },
+    {
+        "source": "Chef Michael Ferraro",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Iginio Massari",
+        "target": "Alessandro Borghese"
+    },
+    {
+        "source": "Chuck Hughes",
+        "target": "Danny Smiles"
+    },
+    {
+        "source": "Chuck Hughes",
+        "target": "Ricardo Cuisine"
+    },
+    {
+        "source": "Chuck Hughes",
+        "target": "Nikki Dinki"
+    },
+    {
+        "source": "Chuck Hughes",
+        "target": "Spike Mendelsohn"
+    },
+    {
+        "source": "Chuck Hughes",
+        "target": "Josh Elkin"
+    },
+    {
+        "source": "Gino D'Acampo",
+        "target": "James Martin"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Chef Carla Hall",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Chef Carla Hall",
+        "target": "Chef Mark Garcia"
+    },
+    {
+        "source": "Chef Carla Hall",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Chef Carla Hall",
+        "target": "Emma Frisch"
+    },
+    {
+        "source": "Chef Carla Hall",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Chef Carla Hall",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Chef Carla Hall",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Carla Hall",
+        "target": "Harlem EatUp"
+    },
+    {
+        "source": "Chef Rubio",
+        "target": "Chef Andrew Gruel"
+    },
+    {
+        "source": "Domino's Pizza Nigeria",
+        "target": "JW Caf\u00e9 - JW Marriott Hotel Hanoi"
+    },
+    {
+        "source": "Domino's Pizza Nigeria",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "Domino's Pizza Nigeria",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza Nigeria",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Los Petersen Cocineros",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Michael White",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Michael White",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Michael White",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Sonia Peronaci",
+        "target": "Alessandro Borghese"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Hearth",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Monti Carlo",
+        "target": "Chef Derrick Fox"
+    },
+    {
+        "source": "Monti Carlo",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Monti Carlo",
+        "target": "Jos\u00e9 Santaella"
+    },
+    {
+        "source": "Monti Carlo",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jean-Fran\u00e7ois Pi\u00e8ge     -      Page Officielle",
+        "target": "Mathieu Pacaud"
+    },
+    {
+        "source": "Jean-Fran\u00e7ois Pi\u00e8ge     -      Page Officielle",
+        "target": "Valentin Neraudeau"
+    },
+    {
+        "source": "Jean-Fran\u00e7ois Pi\u00e8ge     -      Page Officielle",
+        "target": "Taste Of Paris Official"
+    },
+    {
+        "source": "Dean Sheremet",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Dean Sheremet",
+        "target": "Chef Alex Levin"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "FONDA MEXICANA",
+        "target": "Wings"
+    },
+    {
+        "source": "Chili's Qatar",
+        "target": "Chili's M\u00e9xico"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "Emmi CAFF\u00c8 LATTE"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Johnny Iuzzini",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Johnny Iuzzini",
+        "target": "Doug Adams"
+    },
+    {
+        "source": "Johnny Iuzzini",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Johnny Iuzzini",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Johnny Iuzzini",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Johnny Iuzzini",
+        "target": "Emily Ellyn"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "JW Caf\u00e9 - JW Marriott Hotel Hanoi",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Levi Eirinberg",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Levi Eirinberg",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Alessandro Borghese",
+        "target": "Pasqualino Barbasso"
+    },
+    {
+        "source": "Alessandro Borghese",
+        "target": "Bruno Barbieri"
+    },
+    {
+        "source": "Alessandro Borghese",
+        "target": "Christian Bau"
+    },
+    {
+        "source": "Alessandro Borghese",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Luke Thomas",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Juan Mari Arzak (P\u00e1gina oficial)",
+        "target": "Eva Argui\u00f1ano"
+    },
+    {
+        "source": "Juan Mari Arzak (P\u00e1gina oficial)",
+        "target": "Bruno Oteiza"
+    },
+    {
+        "source": "Juan Mari Arzak (P\u00e1gina oficial)",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Juan Mari Arzak (P\u00e1gina oficial)",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Josh Marks",
+        "target": "ChefAlexander"
+    },
+    {
+        "source": "Josh Marks",
+        "target": "Christine Ha"
+    },
+    {
+        "source": "Josh Marks",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Chope",
+        "target": "Crystal Jade Singapore"
+    },
+    {
+        "source": "Chope",
+        "target": "Relais & Ch\u00e2teaux"
+    },
+    {
+        "source": "Chope",
+        "target": "Chope"
+    },
+    {
+        "source": "Emily Ellyn",
+        "target": "Graham Elliot"
+    },
+    {
+        "source": "Emily Ellyn",
+        "target": "Christine Ha"
+    },
+    {
+        "source": "Emily Ellyn",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "Emily Ellyn",
+        "target": "Nikki Dinki"
+    },
+    {
+        "source": "Emily Ellyn",
+        "target": "Zac Kara"
+    },
+    {
+        "source": "Emily Ellyn",
+        "target": "Spike Mendelsohn"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "My Cupcake Addiction",
+        "target": "Anis Nabilah"
+    },
+    {
+        "source": "My Cupcake Addiction",
+        "target": "Kevin Dundon"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Skinny Chef",
+        "target": "Johnny Prep"
+    },
+    {
+        "source": "Skinny Chef",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "KFC"
+    },
+    {
+        "source": "ChefAlexander",
+        "target": "Virginia Willis"
+    },
+    {
+        "source": "ChefAlexander",
+        "target": "Christine Ha"
+    },
+    {
+        "source": "Pescaria",
+        "target": "Chevys Fresh Mex"
+    },
+    {
+        "source": "Chef Marcela Valladolid",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Chef Marcela Valladolid",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Nutella Cafe Chicago",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Noma",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Chef Mary Sue Milliken",
+        "target": "Suzanne Goin"
+    },
+    {
+        "source": "Chef Mary Sue Milliken",
+        "target": "Susan Feniger"
+    },
+    {
+        "source": "Chef Mary Sue Milliken",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Harlem EatUp",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "\u9ea5\u7576\u52de",
+        "target": "McDonald's"
+    },
+    {
+        "source": "KFC",
+        "target": "foodpanda"
+    },
+    {
+        "source": "Magnum",
+        "target": "Tom Aikens"
+    },
+    {
+        "source": "Princi",
+        "target": "The French Laundry"
+    },
+    {
+        "source": "Chetna Makan",
+        "target": "John Whaite"
+    },
+    {
+        "source": "Chetna Makan",
+        "target": "Martha Collison"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Japan"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Rep\u00fablica Dominicana"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Carlos Bertolazzi",
+        "target": "Ogro Jimmy"
+    },
+    {
+        "source": "Ranveer Brar",
+        "target": "Chef Cl\u00e9ment"
+    },
+    {
+        "source": "Ranveer Brar",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "KFC"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Graham Elliot",
+        "target": "Chef Derrick Fox"
+    },
+    {
+        "source": "Graham Elliot",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Graham Elliot",
+        "target": "Zac Kara"
+    },
+    {
+        "source": "Chef Mark Garcia",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Chef Mark Garcia",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Chef Mark Garcia",
+        "target": "Aar\u00f3n S\u00e1nchez"
+    },
+    {
+        "source": "Chef Mark Garcia",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Chef Andrew Gruel",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Andrew Gruel",
+        "target": "Spike Mendelsohn"
+    },
+    {
+        "source": "Chef Andrew Gruel",
+        "target": "Five Guys"
+    },
+    {
+        "source": "Big Fish Seafood Bistro",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Big Fish Seafood Bistro",
+        "target": "Meriwether's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Chef Adrianne",
+        "target": "Chef Jamie DeRosa"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "Four Seasons Hotels and Resorts",
+        "target": "Morton's The Steakhouse"
+    },
+    {
+        "source": "No\u00ebmie Honiat Top Chef",
+        "target": "Norbert Tarayre"
+    },
+    {
+        "source": "Texas Roadhouse",
+        "target": "Chick-fil-A"
+    },
+    {
+        "source": "Virginia Willis",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Virginia Willis",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Virginia Willis",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Virginia Willis",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Virginia Willis",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Virginia Willis",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Pollo Campero Guatemala",
+        "target": "Pollo Campero El Salvador"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Chef Pete Evans",
+        "target": "Pasqualino Barbasso"
+    },
+    {
+        "source": "Chef Pete Evans",
+        "target": "Christian Bau"
+    },
+    {
+        "source": "Chef Pete Evans",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Pete Evans",
+        "target": "Chef Jimmy Boswell"
+    },
+    {
+        "source": "Christian Bau",
+        "target": "Bruno Barbieri"
+    },
+    {
+        "source": "Tom Aikens",
+        "target": "Tom's Kitchen"
+    },
+    {
+        "source": "Tom Aikens",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Tom Aikens",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Tom Aikens",
+        "target": "James Martin"
+    },
+    {
+        "source": "Tom Aikens",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Tom Aikens",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Tom Aikens",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Christine Ha",
+        "target": "Chef Derrick Fox"
+    },
+    {
+        "source": "Christine Ha",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Cl\u00e9ment",
+        "target": "KFC"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Emmi CAFF\u00c8 LATTE",
+        "target": "Emmi CAFF\u00c8 LATTE"
+    },
+    {
+        "source": "Doug Adams",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "KFC",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "KFC",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "KFC",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "KFC",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "PROPERCORN",
+        "target": "Tom's Kitchen"
+    },
+    {
+        "source": "Germ\u00e1n Martitegui",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Germ\u00e1n Martitegui",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Germ\u00e1n Martitegui",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Pierre Sang Boyer Officiel",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Pierre Sang Boyer Officiel",
+        "target": "Pierre Sang Boyer Officiel"
+    },
+    {
+        "source": "Pierre Sang Boyer Officiel",
+        "target": "Taste Of Paris Official"
+    },
+    {
+        "source": "Quique Dacosta",
+        "target": "Dani Garc\u00eda"
+    },
+    {
+        "source": "Quique Dacosta",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Christophe Adam",
+        "target": "Taste Of Paris Official"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "RED Sushi and Hibachi Grill",
+        "target": "Lillie's Asian Cuisine"
+    },
+    {
+        "source": "McDonald's Rep\u00fablica Dominicana",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's Rep\u00fablica Dominicana",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's Rep\u00fablica Dominicana",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's Rep\u00fablica Dominicana",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's Rep\u00fablica Dominicana",
+        "target": "McDonald's"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Olive Garden M\u00e9xico",
+        "target": "Wings"
+    },
+    {
+        "source": "Dani Garc\u00eda",
+        "target": "Ren\u00e9 Redzepi"
+    },
+    {
+        "source": "Dani Garc\u00eda",
+        "target": "Eva Argui\u00f1ano"
+    },
+    {
+        "source": "Dani Garc\u00eda",
+        "target": "Bruno Oteiza"
+    },
+    {
+        "source": "Dani Garc\u00eda",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Dani Garc\u00eda",
+        "target": "Relais & Ch\u00e2teaux"
+    },
+    {
+        "source": "Dani Garc\u00eda",
+        "target": "Donato De Santis"
+    },
+    {
+        "source": "Dani Garc\u00eda",
+        "target": "Angel Leon Gonzalez"
+    },
+    {
+        "source": "Destino Ibiza",
+        "target": "L\u00edo"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "foodpanda"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Magnum",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "McDonald's Deutschland Karriere",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Ren\u00e9 Redzepi",
+        "target": "Frantz\u00e9n"
+    },
+    {
+        "source": "Ren\u00e9 Redzepi",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Ren\u00e9 Redzepi",
+        "target": "James Martin"
+    },
+    {
+        "source": "Ren\u00e9 Redzepi",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Japan"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Thierry Rautureau",
+        "target": "Julia Child"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Burger King Malaysia",
+        "target": "foodpanda"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Jumia Food",
+        "target": "Jumia Food"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Taste Of Paris Official",
+        "target": "Alain Ducasse"
+    },
+    {
+        "source": "Bradley Ogden",
+        "target": "Chef Rick Moonen"
+    },
+    {
+        "source": "Bruno Barbieri",
+        "target": "Pasqualino Barbasso"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Australia"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's Japan"
+    },
+    {
+        "source": "Nando's",
+        "target": "Nando's"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "KFC",
+        "target": "KFC"
+    },
+    {
+        "source": "Chef Rick Moonen",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Chef Rick Moonen",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Domino's Pizza",
+        "target": "Domino's Pizza"
+    },
+    {
+        "source": "Bruno Oteiza",
+        "target": "Eva Argui\u00f1ano"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Alain Ducasse",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Susan Feniger",
+        "target": "Julia Child"
+    },
+    {
+        "source": "Susan Feniger",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Susan Feniger",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "The French Laundry",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "The French Laundry",
+        "target": "Thomas Keller"
+    },
+    {
+        "source": "Julia Child",
+        "target": "Bryce Shuman"
+    },
+    {
+        "source": "Julia Child",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Julia Child",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "McDonald's",
+        "target": "McDonald's"
+    },
+    {
+        "source": "Five Guys",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Nando's",
+        "target": "foodpanda"
+    },
+    {
+        "source": "Dunkin' Donuts",
+        "target": "Dunkin' Donuts"
+    },
+    {
+        "source": "Chef Aaron McCargo Jr",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Aar\u00f3n S\u00e1nchez",
+        "target": "Chef Marc Murphy"
+    },
+    {
+        "source": "Aar\u00f3n S\u00e1nchez",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Aar\u00f3n S\u00e1nchez",
+        "target": "Robin Miller"
+    },
+    {
+        "source": "Chef Marc Murphy",
+        "target": "Elizabeth Karmel"
+    },
+    {
+        "source": "Chef Marc Murphy",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Elizabeth Karmel",
+        "target": "John DeLucie"
+    },
+    {
+        "source": "Domino's Australia",
+        "target": "Domino's Pizza"
+    }
+]

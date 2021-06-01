@@ -1,0 +1,280 @@
+{% extends "common/layout_socialnetwork.html" %}
+
+{% block css %}
+<style>
+    .link {
+        stroke: #777;
+        stroke-opacity: 0.3;
+        stroke-width: 1.5px;
+    }
+
+    .node circle {
+        fill: #ccc;
+        stroke: #000;
+        stroke-width: 1.5px;
+    }
+
+    .node text {
+        display: none;
+        font: 10px sans-serif;
+    }
+
+    .node:hover circle {
+        fill: #000;
+    }
+
+    .node:hover text {
+        display: inline;
+    }
+
+    .cell {
+        fill: none;
+        pointer-events: all;
+    }
+</style>
+{% endblock %}
+
+
+{% block content %}
+<section id="inner-headline">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="pageTitle"><a href="http://networkrepository.com/fb-pages-food.php"
+                        target="_blank">数据集：facebook餐饮企业社交网络</a></h2>
+                <p style="color: black;">收集的有关 Facebook 页面的数据（2017 年 11 月）。这些数据集代表不同的 Facebook 页面网络。节点代表页面，边是它们之间的相互喜欢。
+                </p>
+                <form>
+                    <table width="30%" border="0" cellspacing="1" cellpadding="0">
+                        <tr>
+                            <td width="75%">
+                                <input type="text" name="wanted" class="form-control" placeholder="输入要搜索的节点编号" value=""
+                                    default="">
+                            </td>
+                            <td width="5%"></td>
+                            <td width="20%">
+                                <input type="submit" value="搜索" class="btn btn-primary">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d3" id="call-to-action-2" style="background-color: white;">
+
+</section>
+<section class="section-padding gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-red margin-bottom-40 bg-stats-table">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="icon-bar-chart icon-large"></i> 总数据统计
+                        </h3>
+                    </div>
+                    <table class="table table-hover" summary="Network data statistics" id="sortTableExample">
+                        <tbody>
+                            <tr class="success">
+                                <td><b>节点数</b></td>
+                                <td>620</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>边数</b></td>
+                                <td>2102</td>
+                            </tr>
+                            <!-- <tr class="success">
+                                <td><b>密度</b></td>
+                                <td>0.0108969</td>
+                            </tr> -->
+                            <tr class="success">
+                                <td><b>最大深度</b></td>
+                                <td>132</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>最小深度</b></td>
+                                <td>1</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>平均深度</b></td>
+                                <td>6</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="http://en.wikipedia.org/wiki/Assortativity" target="_blank">分类性</a></b>
+                                </td>
+                                <td>-0.0322034</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>三角形个数</b></td>
+                                <td>8.8K</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>平均三角形个数</b></td>
+                                <td>14</td>
+                            </tr>
+                            <!-- <tr class="success">
+                        <td><b>最大三角形个数</b></td>
+                        <td>461</td>
+                    </tr> -->
+                            <tr class="success">
+                                <td><b>平均聚类系数</b></td>
+                                <td>0.330897</td>
+                            </tr>
+                            <!-- <tr class="success">
+                        <td><b>封闭三角形分数</b></td>
+                        <td>0.222641</td>
+                    </tr> -->
+                            <!-- <tr class="success">
+                        <td><b>最大k核</b></td>
+                        <td>12</td>
+                    </tr> -->
+                            <!-- <tr class="success">
+                        <td><b>最大集团下线</b></td>
+                        <td>10</td>
+                    </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% if info %}
+            <div class="col-md-4">
+                <div class="panel panel-red margin-bottom-40 bg-stats-table">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="icon-bar-chart icon-large"></i> 查询节点数据
+                        </h3>
+                    </div>
+                    <table class="table table-hover" summary="Network data statistics" id="sortTableExample">
+                        <tbody>
+                            <tr class="success">
+                                <td><b>节点序号</b></td>
+                                <td>{{info[0]}}</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>节点名称</b></td>
+                                <td>{{info[1]}}</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>hub值</b></td>
+                                <td>{{info[2]}}</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b>auth值</b></td>
+                                <td>{{info[3]}}</td>
+                            </tr>
+                            <!-- <tr class="success">
+                                <td><b>pagerank值</b></td>
+                                <td>Nan</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+            <div class="col-md-4">
+                <img src="{{buildStaticUrl('/img/socialnetwork/testfbtxt.jpg')}}" alt="">
+                <img src="{{buildStaticUrl('/img/socialnetwork/testfbtxtreverse.jpg')}}" alt="">
+            </div>
+            
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
+{% block js %}
+<script src="{{ buildStaticUrl('/js/d3.v3.min.js') }}" charset="utf-8"></script>
+<script>
+    // http://blog.thomsonreuters.com/index.php/mobile-patent-suits-graphic-of-the-day/
+
+    
+    var links = [
+        {{data|safe}}
+    ];
+
+    var nodes = {};
+
+    // Compute the distinct nodes from the links.
+    links.forEach(function (link) {
+        link.source = nodes[link.source] || (nodes[link.source] = {
+            name: link.source
+        });
+        link.target = nodes[link.target] || (nodes[link.target] = {
+            name: link.target
+        });
+    });
+
+    var width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) * 0.98;
+    var height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight) * 0.8;
+
+
+    var force = d3.layout.force()
+        .nodes(d3.values(nodes))
+        .links(links)
+        .size([width, height])
+        .linkDistance(60)
+        .charge(-300)
+        .on("tick", tick)
+        .start();
+
+    var svg = d3.select("section.d3").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var link = svg.selectAll(".link")
+        .data(force.links())
+        .enter().append("line")
+        .attr("class", "link");
+
+    var node = svg.selectAll(".node")
+        .data(force.nodes())
+        .enter().append("g")
+        .attr("class", "node")
+        .on("mouseover", mouseover)
+        .on("mouseout", mouseout)
+        .call(force.drag);
+
+    node.append("circle")
+        .attr("r", 8);
+
+    node.append("text")
+        .attr("x", 12)
+        .attr("dy", ".35em")
+        .text(function (d) {
+            return d.name;
+        });
+
+    function tick() {
+        link
+            .attr("x1", function (d) {
+                return d.source.x;
+            })
+            .attr("y1", function (d) {
+                return d.source.y;
+            })
+            .attr("x2", function (d) {
+                return d.target.x;
+            })
+            .attr("y2", function (d) {
+                return d.target.y;
+            });
+
+        node
+            .attr("transform", function (d) {
+                return "translate(" + d.x + "," + d.y + ")";
+            });
+    }
+
+    function mouseover() {
+        d3.select(this).select("circle").transition()
+            .duration(750)
+            .attr("r", 16);
+    }
+
+    function mouseout() {
+        d3.select(this).select("circle").transition()
+            .duration(750)
+            .attr("r", 8);
+    }
+</script>
+{% endblock %}
