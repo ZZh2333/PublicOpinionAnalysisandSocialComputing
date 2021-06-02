@@ -17,7 +17,7 @@ def facebook():
     wanted = request.args.get("wanted",type=str)
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     SITE_ROOT = SITE_ROOT[:-25]
-    docs_url = os.path.join(SITE_ROOT,"static\docs","fb-pages-food.edges")
+    docs_url = os.path.join(SITE_ROOT,"static/docs","fb-pages-food.edges")
     data = pandas.read_csv(docs_url)
     data = data.values
     links = []
