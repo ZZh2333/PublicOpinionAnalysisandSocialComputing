@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request
 from application import app
 import os
 import json
-import pandas as pd
+import pandas
 from common.libs.snetwork.snetwork import findname
 from common.libs.snetwork.HITSIterator import HITSIterator
 from pygraph.classes.digraph import digraph
@@ -18,7 +18,7 @@ def facebook():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     SITE_ROOT = SITE_ROOT[:-25]
     docs_url = os.path.join(SITE_ROOT,"static\docs","fb-pages-food.edges")
-    data = pd.read_csv(docs_url)
+    data = pandas.read_csv(docs_url)
     data = data.values
     links = []
 
