@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request
 from application import app
 import os
-import json
+import json 
 import pandas
 from common.libs.snetwork.snetwork import findname
 from common.libs.snetwork.HITSIterator import HITSIterator
