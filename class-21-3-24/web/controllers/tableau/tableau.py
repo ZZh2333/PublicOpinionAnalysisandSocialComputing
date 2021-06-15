@@ -22,7 +22,7 @@ def tableauUI():
 @route_tableau.route("/tableauserver")
 def tableauserver():
     ticket = get_ticket("admin")
-    # app.logger.info(ticket)
+    app.logger.info(ticket)
     # tableau_auth = TSC.PersonalAccessTokenAuth('test_zzh', 'yyZjbwiHQcCPnCZrvpVB/A==:40Aw3vDmnUIabk3O8R3zhdfSUbhxoepl', '')
     # server = TSC.Server('http://172.17.33.144:8001/', use_server_version=True)
     # server.auth.sign_in(tableau_auth)

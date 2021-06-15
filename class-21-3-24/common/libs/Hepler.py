@@ -39,8 +39,8 @@ def randomIntIndex(index,begin,end):
 
 
 def get_ticket(username):
-    tbserver = "http://172.17.33.144:8001"
+    tbserver = "https://tableau.cuc.edu.cn"
     url = f"{tbserver}/trusted"
     data = {"username": username}
-    res = requests.post(url=url, data=data)
+    res = requests.post(url=url, data=data, verify=False)
     return(res.text)
