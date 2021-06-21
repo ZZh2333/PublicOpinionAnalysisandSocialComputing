@@ -4,8 +4,27 @@ from common.libs.Hepler import ops_render, randomIntIndex
 from application import app
 from common.libs.wordc.wordc import cut, wordcloudpic
 from snownlp import SnowNLP
+import pandas as pd
+import os
+import random
 
 route_wordcloud = Blueprint('wordcloud_page',__name__)
+
+
+@route_wordcloud.route('/MarvelWordCloud',methods=["Get","Post"])
+def MarvelWordCloud():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    SITE_ROOT = SITE_ROOT[:-21]
+    docs_url = os.path.join(SITE_ROOT,"static\docs\MarvelData","MarvelComment.xls")
+    data = pd.read_excel(docs_url)
+    rs = random.sample(list(data.values),10)
+    words = ""
+    for row in data.values:
+        words += row[1]
+    wordcloud = cut(words)
+    # app.logger.info(rs)
+    wordcount = len(wordcloud)
+    return render_template("wordcloud/MarvelWordCloud.html",rs=rs,wordcloud=wordcloud,wordcount=wordcount)
 
 
 @route_wordcloud.route('/cucnewsemotionanalysis',methods=["Get","Post"])

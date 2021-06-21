@@ -1,0 +1,381 @@
+{% extends "common/layout_socialnetwork.html" %}
+
+{% block css %}
+<style>
+    .tooltip {
+        position: absolute;
+        width: 240px;
+        height: auto;
+        font-family: simsun;
+        font-size: 10px;
+        text-align: left;
+        color: black;
+        border-width: 1px solid black;
+        background-color: #FFF5EE;
+        border-radius: 3px;
+    }
+
+    .tooltip:after {
+        content: '';
+        position: absolute;
+        bottom: 100%;
+        left: 20%;
+        margin-left: -3px;
+        width: 0;
+        height: 0;
+        border-bottom: 12px solid black;
+        border-right: 12px solid transparent;
+        border-left: 12px solid transparent;
+    }
+</style>
+{% endblock %}
+
+
+{% block content %}
+<section id="inner-headline">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h2 class="pageTitle"><a href="https://www.kaggle.com/csanhueza/the-marvel-universe-social-network"
+                        target="_blank">数据集：漫威人物关系图谱</a></h2>
+                <p style="color: black; text-indent: 2em;">漫威漫画公司，原名 Timely Comics Inc.，几十年来一直在出版漫画书。“漫画的黄金时代”这个名字是由于最初几年书籍的流行而得名，后来由于世界大战ref对超级英雄故事的兴趣下降了一段时间。1961 年，漫威重新推出了其超级英雄漫画书出版线。这个新时代开始了被称为漫威漫画时代. 这一时期创造的角色，如蜘蛛侠、绿巨人、神奇四侠和 X 战警，以及黄金时代创造的角色，如美国队长，享誉全球，并在过去几十年成为文化偶像。后来，由于最近上映的几部使用壮观的现代特效重现漫画书的电影的上映，漫威的角色人气得到了进一步的振兴。
+                </p>
+                <form>
+                    <table width="30%" border="0" cellspacing="1" cellpadding="0">
+                        <tr>
+                            <td width="75%">
+                                <input type="text" name="wanted" class="form-control" placeholder="输入要搜索的人物名称" value=""
+                                    default="">
+                            </td>
+                            <td width="5%"></td>
+                            <td width="20%">
+                                <input type="submit" value="搜索" class="btn btn-primary">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+        
+    </div>
+</section>
+
+<section id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="d3" style="width: auto;">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section-padding gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h2>网络结构分析</h2>
+                    <!-- <p>图结构中与某节点相连接的边的数目为该节点的度，而图中各个的节点度的散布情况就为度分布。</p> -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="about-image" style="text-align: right;">
+                    <!-- <img src="{{buildStaticUrl('/img/socialnetwork/pointDegree.png')}}" alt="About Images" title="度分布图" style="width: 73%; height: auto; text-align: center;"> -->
+                    
+                    <img src="{{buildStaticUrl('/img/socialnetwork/degree.png')}}" alt="About Images" style="width: 70%; height: auto;">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="about-text">
+                    <h3>度分布折线图</h3>
+                    <p>度分布是图论和网络理论中的概念。一个图（或网络）由一些顶点（节点）和连接它们的边（连结）构成。每个顶点（节点）连出的所有边（连结）的数量就是这个顶点（节点）的度。度分布是对一个图（网络）中顶点（节点）度数的总体描述。对于随机图，度分布指的是图中顶点度数的概率分布。</p>
+
+                    <!-- <ul class="withArrow">
+                        <li><span class="fa fa-angle-right"></span> Lorem ipsum dolor sit amet</li>
+                        <li><span class="fa fa-angle-right"></span> consectetur adipiscing elit</li>
+                        <li><span class="fa fa-angle-right"></span> Curabitur aliquet quam id dui</li>
+                        <li><span class="fa fa-angle-right"></span> Donec sollicitudin molestie malesuada.</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h2>Auth值和Hub值TOP榜</h2>
+                    <!-- <p>图结构中与某节点相连接的边的数目为该节点的度，而图中各个的节点度的散布情况就为度分布。</p> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="panel panel-red margin-bottom-40 bg-stats-table">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="icon-bar-chart icon-large"></i> Auth值TOP10
+                        </h3>
+                    </div>
+                    <table class="table table-hover" summary="Network data statistics" id="sortTableExample">
+                        <tbody>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=vision')}}">vision</a></b></td>
+                                <td>0.241</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=wandam')}}">wandam</a></b></td>
+                                <td>0.236</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=nickf')}}">nickf</a></b></td>
+                                <td>0.218</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=falcon')}}">falcon</a></b></td>
+                                <td>0.214</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=ultronu')}}">ultronu</a></b></td>
+                                <td>0.197</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=ultrons')}}">ultrons</a></b>
+                                </td>
+                                <td>0.195</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=stever')}}">stever</a></b></td>
+                                <td>0.194</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=hawke')}}">hawke</a></b></td>
+                                <td>0.193</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=blackw')}}">blackw</a></b></td>
+                                <td>0.192</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=pietrom')}}">pietrom</a></b></td>
+                                <td>0.189</td>
+                            </tr>
+                    
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="panel panel-red margin-bottom-40 bg-stats-table">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="icon-bar-chart icon-large"></i> Hub值TOP10
+                        </h3>
+                    </div>
+                    <table class="table table-hover" summary="Network data statistics" id="sortTableExample">
+                        <tbody>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=tonys')}}">tonys</a></b></td>
+                                <td>0.387</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=thor')}}">thor</a></b></td>
+                                <td>0.361</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=stever')}}">stever</a></b></td>
+                                <td>0.360</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=blackw')}}">blackw</a></b></td>
+                                <td>0.340</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=bruceb')}}">bruceb</a></b></td>
+                                <td>0.281</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=rhody')}}">rhody</a></b>
+                                </td>
+                                <td>0.256</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=hawke')}}">hawke</a></b></td>
+                                <td>0.253</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=bucky')}}">bucky</a></b></td>
+                                <td>0.214</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=loki')}}">loki</a></b></td>
+                                <td>0.197</td>
+                            </tr>
+                            <tr class="success">
+                                <td><b><a href="{{buildUrl('MarvelData?wanted=falcon')}}">falcon</a></b></td>
+                                <td>0.171</td>
+                            </tr>
+                    
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
+
+
+{% block js %}
+
+<script src="{{ buildStaticUrl('/js/d3.v3.min.js') }}" charset="utf-8"></script>
+<script type="text/javascript">
+    var width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) * 0.78;
+    var height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight) * 0.9;
+    var img_h = 50;
+    var img_w = 70;
+    var radius = 10;
+    var svg = d3.select("div.d3")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+    var nodes = [
+        {{nodes_data | safe}}
+    ];
+    var edges = [
+        {{data | safe}}
+    ];
+
+    var force = d3.layout.force()
+        .nodes(nodes)
+        .links(edges)
+        .size([width, height])
+        .linkDistance(400)
+        .charge(-600)
+        .start();
+    //提示框部分
+    var tooltip = d3.selectAll("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0.0);
+    var color = d3.scale.category20();
+    var lines = svg.selectAll(".forceLine")
+        .data(edges)
+        .enter()
+        .append("line")
+        .attr("class", "forceLine")
+        .style("stroke", "gray")
+        .style("opacity", 0.4)
+        .style("stroke-width", 1);
+    var edges_text = svg.selectAll(".linetext")
+        .data(edges)
+        .enter()
+        .append("text")
+        .attr("class", "linetext")
+        .text(function (d) {
+            return d.relation;
+        })
+        .style("stroke", "gray")
+        .style("font-size", 8);
+    var img_h = 50;
+    var img_w = 50;
+    var radius = 23;
+    var circles = svg.selectAll("forceCircle")
+        .data(nodes)
+        .enter()
+        .append("circle")
+        .attr("class", "forceCircle")
+        .attr("r", radius)
+        .style("stroke", "DarkGray")
+        .style("stroke-width", "1.0px")
+        .attr("fill", function (d, i) {
+            //创建圆形图片
+            var defs = svg.append("defs").attr("id", "imgdefs");
+            var catpattern = defs.append("pattern")
+                .attr("id", "catpattern" + i)
+                .attr("height", 1)
+                .attr("width", 1);
+            catpattern.append("image")
+                .attr("x", -(img_w / 2 - radius + 5.8))
+                .attr("y", -(img_h / 2 - radius + 3.5))
+                .attr("width", img_w + 11)
+                .attr("height", img_h + 6)
+                // .attr("xlink:href", "{{ buildStaticUrl('/img/renmin/') }}" + d.image);
+                .attr("xlink:href", d.image);
+
+            return "url(#catpattern" + i + ")";
+        })
+        // .on("mouseover", function (d, i) { //加入提示框
+        //     tooltip.html("角色简介：" + d.intro)
+        //         .style("left", (d3.event.pageX) + "px")
+        //         .style("top", (d3.event.pageY + 20) + "px")
+        //         .style("opacity", 0.5);
+        // })
+        .call(force.drag);
+    var texts = svg.selectAll(".forceText")
+        .data(nodes)
+        .enter()
+        .append("text")
+        .attr("class", "forceText")
+        .attr("x", function (d) {
+            return d.x;
+        })
+        .attr("y", function (d) {
+            return d.y;
+        })
+        .style("stroke", "#336666")
+        .style("stroke-family", "仿宋")
+        .style("font-size", "10px")
+        .attr("dx", "-1.5em")
+        .attr("dy", "3em")
+        .text(function (d) {
+            return d.name;
+        });
+
+    force.on("tick", function () {
+        lines.attr("x1", function (d) {
+            return d.source.x;
+        });
+        lines.attr("y1", function (d) {
+            return d.source.y;
+        });
+        lines.attr("x2", function (d) {
+            return d.target.x;
+        });
+        lines.attr("y2", function (d) {
+            return d.target.y;
+        });
+        circles.attr("cx", function (d) {
+            return d.x;
+        });
+        circles.attr("cy", function (d) {
+            return d.y;
+        });
+        texts.attr("x", function (d) {
+            return d.x;
+        });
+        texts.attr("y", function (d) {
+            return d.y;
+        });
+        edges_text.attr("x", function (d) {
+            return (d.source.x + d.target.x) / 2;
+        });
+        edges_text.attr("y", function (d) {
+            return (d.source.y + d.target.y) / 2;
+        });
+    });
+</script>
+{% endblock %}
