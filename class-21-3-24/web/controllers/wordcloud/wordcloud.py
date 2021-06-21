@@ -7,19 +7,37 @@ from snownlp import SnowNLP
 import pandas as pd
 import os
 import random
+import re
 
 route_wordcloud = Blueprint('wordcloud_page',__name__)
 
 
 @route_wordcloud.route('/MarvelWordCloud',methods=["Get","Post"])
 def MarvelWordCloud():
+
+    wanted = request.args.get("wanted",type=str)
+    if wanted == None:
+        wanted = ""
+
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     SITE_ROOT = SITE_ROOT[:-21]
     docs_url = os.path.join(SITE_ROOT,"static\docs\MarvelData","MarvelComment.xls")
-    data = pd.read_excel(docs_url)
-    rs = random.sample(list(data.values),10)
+    data = pd.read_excel(docs_url).values
+    # app.logger.info(data)
+
+    matchdata = []
+    for i,row in enumerate(data):
+        if re.search(wanted,str(row[1])):
+            matchdata.append(row)
+
+    num = len(matchdata)
+    if num > 10:
+        rs = random.sample(list(matchdata),10)
+    else:
+        rs = random.sample(list(matchdata),num)
+
     words = ""
-    for row in data.values:
+    for row in matchdata:
         words += row[1]
     wordcloud = cut(words)
     # app.logger.info(rs)

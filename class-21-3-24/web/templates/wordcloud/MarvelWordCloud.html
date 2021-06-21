@@ -13,11 +13,11 @@
                 <h3>
                     词条：{{wordcount}}
                 </h3>
-                <!-- <form>
+                <form>
                     <table width="30%" border="0" cellspacing="1" cellpadding="0">
                         <tr>
                             <td width="75%">
-                                <input type="text" name="moviekillwanted" class="form-control" placeholder="在书籍简介中搜索" value=""
+                                <input type="text" name="wanted" class="form-control" placeholder="在书籍简介中搜索" value=""
                                     default="">
                             </td>
                             <td width="5%"></td>
@@ -26,7 +26,7 @@
                             </td>
                         </tr>
                     </table>
-                </form> -->
+                </form>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
                     <div class="card-action">
                     </div>
                     <div class="block-heading-two">
-                        <h3><span>评论列表</span></h3>
+                        <h3><span>弹幕列表</span></h3>
                     </div>
                     <div class="col-md-11">
                         <div class="panel-group" id="accordion-alt3">
@@ -77,11 +77,11 @@
                                     <div class="panel-body">
                                         用户“{{r[0]}}”：“{{r[1]}}”
                                     </div>
-                                    <!-- <div class="panel-body">
-                                        <button class="button do-analysis" id="submit" type="button" value="{{r.id}}">
+                                    <div class="panel-body">
+                                        <button class="button do-analysis" id="submit" type="button" value="{{r[1]}}">
                                             【情感分析】
                                         </button>
-                                    </div> -->
+                                    </div>
                                 </div>
                                 {% endfor %}
                                 {% else %}
@@ -103,15 +103,17 @@
 <script>
     $(document).ready(function () {
         $(".do-analysis").click(function () {
-            var id = $(this).val();
+            var message = $(this).val();
+            // console.log(message)
             $.ajax({
-                url: '/emotionanalysisapi/moviekill',
+                url: '/emotionanalysisapi/MarvelEmotionAnalysis',
                 type: "POST",
                 data: {
-                    'id': id
+                    'message': message
                 },
                 datatype: 'json',
                 success: function (res) {
+                    // console.log(res)
                     alert("情感分为：" + res.count + "\n关键字为：" + res.keywords)
                 }
             })
@@ -163,7 +165,7 @@
                     .enter()
                     .append("a")
                     .attr("xlint:href",function(d){
-                                    return "/wordcloud/moviekill?moviekillwanted="+d.text;
+                                    return "/wordcloud/MarvelWordCloud?wanted="+d.text;
                          })
                     .append("text")
                     .style("font-size", function(d) { return d.size + "px"; })

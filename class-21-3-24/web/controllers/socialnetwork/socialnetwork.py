@@ -8,6 +8,7 @@ from common.libs.snetwork.HITSIterator import HITSIterator
 from pygraph.classes.digraph import digraph
 import networkx as nx
 import matplotlib.pyplot as plt
+from random import choice
 
 
 route_socialnetwork = Blueprint('socialnetwork_page', __name__)
@@ -47,20 +48,20 @@ def MarvelData():
             i[0]), nodes_mapping.index(i[1]), relation=i[2])
 
 
-    # 绘出节点度数图
-    x = nx.degree(G)
-    # app.logger.info(x)
-    X = []
-    Y = []
-    for row in x:
-        X.append(row[0])
-        Y.append(row[1])
-    Y.sort()
-    Y.reverse()
-    plt.plot(Y)
-    plt.xlabel("num of point")
-    plt.ylabel("degree")
-    plt.savefig("pointDegree.png")
+    # # 绘出节点度数图
+    # x = nx.degree(G)
+    # # app.logger.info(x)
+    # X = []
+    # Y = []
+    # for row in x:
+    #     X.append(row[0])
+    #     Y.append(row[1])
+    # Y.sort()
+    # Y.reverse()
+    # plt.plot(Y)
+    # plt.xlabel("num of point")
+    # plt.ylabel("degree")
+    # plt.savefig("pointDegree.png")
 
     # 绘出图分布图
     # degree = nx.degree_histogram(G)
@@ -71,7 +72,9 @@ def MarvelData():
     # plt.show()
 
     if not wanted:
-        wanted="tonys"
+        peoplelist = ["tonys","thor","stever","blackw","bruceb","rhody","hawke","bucky","loki","falcon"]
+        # app.logger.info(choice(peoplelist))
+        wanted=choice(peoplelist)
 
     if not wanted or wanted == "all":
         for row in data:
