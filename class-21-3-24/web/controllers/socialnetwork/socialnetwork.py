@@ -21,10 +21,10 @@ def MarvelData():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     SITE_ROOT = SITE_ROOT[:-25]
     docs_url = os.path.join(
-        SITE_ROOT, "static\docs\MarvelData", "relation_message.csv")
+        SITE_ROOT, "static/docs/MarvelData", "relation_message.csv")
     # nodes_docs_url = os.path.join(SITE_ROOT,"static\docs\MarvelData","names_message.csv")
     message_docs_url = os.path.join(
-        SITE_ROOT, "static\docs\MarvelData", "message.csv")
+        SITE_ROOT, "static/docs/MarvelData", "message.csv")
     # nodes_data = pandas.read_csv(nodes_docs_url).values
     data = pandas.read_csv(docs_url, header=None, names=[
                            'begin', 'end', 'relationship']).values

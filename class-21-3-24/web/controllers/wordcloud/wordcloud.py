@@ -21,7 +21,7 @@ def MarvelWordCloud():
 
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     SITE_ROOT = SITE_ROOT[:-21]
-    docs_url = os.path.join(SITE_ROOT,"static\docs\MarvelData","MarvelComment.xls")
+    docs_url = os.path.join(SITE_ROOT,"static/docs/MarvelData","MarvelComment.xls")
     data = pd.read_excel(docs_url).values
     # app.logger.info(data)
 
