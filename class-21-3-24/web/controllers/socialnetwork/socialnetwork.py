@@ -9,6 +9,7 @@ from pygraph.classes.digraph import digraph
 import networkx as nx
 import matplotlib.pyplot as plt
 from random import choice
+import random
 
 
 route_socialnetwork = Blueprint('socialnetwork_page', __name__)
@@ -39,6 +40,9 @@ def MarvelData():
         tmp = {"name": row[0], "image": "https://graphics.straitstimes.com/STI/STIMEDIA/Interactives/2018/04/marvel-cinematic-universe-whos-who-interactive/images_doc/marvel/nodeIcons/"+row[0]+".svg"}
         nodes.append(tmp)
         nodes_mapping.append(row[0])
+
+    search_nodes = list(random.sample(nodes,5))
+    # app.logger.info(search_nodes[0])
 
     G = nx.Graph()
     for i in range(len(nodes_mapping)):
@@ -81,7 +85,7 @@ def MarvelData():
             tmp = {"source": nodes_mapping.index(
                 row[0]), "target": nodes_mapping.index(row[1]), "relation": row[2]}
             links.append(tmp)
-        return render_template('/socialnetwork/new_MarvelData.html', data=str(links).replace('[', '').replace(']', ''), nodes_data=str(nodes).replace('[', '').replace(']', ''))
+        return render_template('/socialnetwork/new_MarvelData.html',search_nodes=search_nodes, data=str(links).replace('[', '').replace(']', ''), nodes_data=str(nodes).replace('[', '').replace(']', ''))
     
     else:
         G1 = nx.ego_graph(G, nodes_mapping.index(wanted), 1)
@@ -100,7 +104,7 @@ def MarvelData():
         for row in G1_edges:
             tmp = {"source": row[0], "target": row[1], "relation":row[2]}
             G1_links.append(tmp)
-        return render_template('/socialnetwork/new_MarvelData.html', data=str(G1_links).replace('[', '').replace(']', ''), nodes_data=str(G1_people).replace('[', '').replace(']', ''))
+        return render_template('/socialnetwork/new_MarvelData.html',search_nodes=search_nodes, data=str(G1_links).replace('[', '').replace(']', ''), nodes_data=str(G1_people).replace('[', '').replace(']', ''))
 
 
 @route_socialnetwork.route('/facebook', methods=["Get", "Post"])
