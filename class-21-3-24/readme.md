@@ -9,11 +9,11 @@
 ## 目录结构  
 
 本系统采用MVC框架  
-  
+
 ···  
-  
+
 ···  
-  
+
 ########################################  
 service firewalld stop--关闭防火墙  
 
@@ -31,13 +31,12 @@ vscode中/web/controllers/static.py报错
     ]  
 }  
 ···  
-  
+
 ## flask-sqlacodegen  
-  
+
     flask-sqlacodegen 'mysql+pymysql://name:password@127.0.0.1/table' --outfile "common/models/model.py" --flask
     flask-sqlacodegen 'mysql+pymysql://root:123456@127.0.0.1/table' --tables user --outfile "common/models/user.py"  
-    
-    
+
 use class;  
 drop table if exists `douban`;  
 CREATE TABLE `douban` (  
@@ -54,4 +53,28 @@ CREATE TABLE `douban` (
   `bookintro` varchar(5000) NOT NULL DEFAULT '' COMMENT '简介',  
   PRIMARY KEY (`id`)  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='豆瓣top250';  
+
+
+
+```mysql
+use class;  
+drop table if exists `douban`;  
+CREATE TABLE `douban` (  
+  `id` int unsigned NOT NULL AUTO_INCREMENT,  
+  `title` varchar(100) NOT NULL DEFAULT '' COMMENT ' 书名',  
+  `bookurl` varchar(11) NOT NULL DEFAULT '' COMMENT 'url',  
+  `score` float(11) NOT NULL DEFAULT '0.0' COMMENT '得分',  
+  `score_people` int NOT NULL DEFAULT '0' COMMENT '评分人数',  
+  `price` float(11) NOT NULL DEFAULT '0.0' COMMENT '价格',  
+  `publishtime` varchar(100) NOT NULL DEFAULT '' COMMENT '出版日期',  
+  `publishcompany` varchar(100) NOT NULL DEFAULT '' COMMENT '出版社',  
+  `author` varchar(100) NOT NULL DEFAULT '' COMMENT '作者',  
+  `comment` varchar(100) NOT NULL DEFAULT '' COMMENT '总结',  
+  `bookintro` varchar(5000) NOT NULL DEFAULT '' COMMENT '简介',  
+  PRIMARY KEY (`id`)  
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='豆瓣top250';  
+```
+
+
+
 ##########################################  
